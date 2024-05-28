@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<svg width="735" height="570" xmlns="http://www.w3.org/2000/svg">
+<svg width="735" height="630" xmlns="http://www.w3.org/2000/svg">
     <rect id="bg" width="100%" height="100%" x="0" y="0" rx="0" ry="0" fill="white" />
     <g class="entity" id="User">
         <path d="M10 10 L245 10 L245 50 L10 50 Z M10 50 L10 80 L245 80 L245 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
@@ -40,6 +40,15 @@
         <path d="M10 10 L180 10 L180 50 L10 50 Z M10 50 L10 60 L180 60 L180 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
             <text x="95" y="30" dominant-baseline="central" text-anchor="middle">Subtask</text>
+        </g>
+    </g>
+    <g class="entity" id="UserStory" transform="translate(240, 500)">
+        <path d="M10 10 L185 10 L185 50 L10 50 Z M10 50 L10 120 L185 120 L185 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
+        <g class="entity-text" fill="black">
+            <text x="95" y="30" dominant-baseline="central" text-anchor="middle">UserStory</text>
+            <text x="20" y="65" dominant-baseline="central">role &lt;PI&gt; ROLE &lt;M&gt;</text>
+            <text x="20" y="85" dominant-baseline="central">action &lt;PI&gt; ACTN &lt;M&gt;</text>
+            <text x="20" y="105" dominant-baseline="central">goal &lt;PI&gt; GOAL &lt;M&gt;</text>
         </g>
     </g>
     <g class="relationship" id="EmailOfUser" stroke-width="1" stroke="black" fill="none">
@@ -99,6 +108,7 @@
         <line x1="535" y1="400" x2="535" y2="430" />
         <path d="M525 440 a1 1, 0, 0 1, 20 0 Z" />
         <line x1="535" y1="440" x2="535" y2="510" />
+        <path d="M335 510 L335 435 L526 435" />
         <text x="535" y="415" fill="black" stroke="none" dominant-baseline="central" text-anchor="middle">TypeOfTask</text>
     </g>
 </svg>

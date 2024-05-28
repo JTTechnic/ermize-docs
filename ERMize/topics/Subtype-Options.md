@@ -1,9 +1,10 @@
-# Creating a Subtype
+# Subtype Options
 
-- [Single Subtype](#single-subtype)
-- [Multiple Subtypes](#multiple-subtypes)
+- [Exclusive](#exclusive)
+- [Complete](#complete)
+- [Combining Options](#combining-options)
 
-## Single Subtype
+## Exclusive
 
 ### Code
 
@@ -40,14 +41,14 @@ TaskList -|--o<|{ Task : TaskOfTaskList
 Task }o--o- User : AssignedTo
 Task -|--o<|{ SubTask : SubTaskOfTask
 
-Task <--()-- SubTask : TypeOfTask
+Task <--(X)-- SubTask : TypeOfTask
 ```
 
 ### Output
 
-![](subtypes.svg)
+![](subtypes-exclusive.svg)
 
-## Multiple Subtypes
+## Complete
 
 ### Code {id="code_1"}
 
@@ -75,10 +76,48 @@ entity Task {
     end_time ETIME
 }
 
-entity UserStory {
-    role <PI> ROLE <M>
-    action <PI> ACTN <M>
-    goal <PI> GOAL <M>
+entity SubTask {}
+
+User -|--|<|{ UserEmail : EmailOfUser
+User -|--o<|{ TaskList : TaskListOfUser
+TaskList }o--o{ User : SharedTaskList
+TaskList -|--o<|{ Task : TaskOfTaskList
+Task }o--o- User : AssignedTo
+Task -|--o<|{ SubTask : SubTaskOfTask
+
+Task <--(__)-- SubTask : TypeOfTask
+```
+
+### Output {id="output_1"}
+
+![](subtypes-complete.svg)
+
+## Combining Options
+
+### Code {id="code_2"}
+
+```
+entity User {
+    username <PI> USRNAME <M>
+}
+
+entity UserEmail {
+    email <PI> EMAIL <M>
+}
+
+entity TaskList {
+    title <PI> TITLE <M>
+    description DESC
+}
+
+entity Task {
+    title <PI> TITLE <M>
+    task_type TTYPE <M>
+    description DESC
+    start_date SDATE <M>
+    end_date EDATE <M>
+    start_time STIME
+    end_time ETIME
 }
 
 entity SubTask {}
@@ -90,9 +129,9 @@ TaskList -|--o<|{ Task : TaskOfTaskList
 Task }o--o- User : AssignedTo
 Task -|--o<|{ SubTask : SubTaskOfTask
 
-Task <--()-- UserStory, SubTask : TypeOfTask
+Task <--(_X_)-- SubTask : TypeOfTask
 ```
 
-### Output {id="output_1"}
+### Output {id="output_2"}
 
-![](subtypes-multiple.svg)
+![](subtypes-excl-and-comp.svg)

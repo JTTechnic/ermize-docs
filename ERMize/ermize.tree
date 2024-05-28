@@ -22,7 +22,9 @@
                 <toc-element topic="Cardinalities.md"/>
                 <toc-element topic="Dependencies.md"/>
             </toc-element>
-            <toc-element topic="Creating-a-Subtype.md"/>
+            <toc-element topic="Creating-a-Subtype.md">
+                <toc-element topic="Subtype-Options.md"/>
+            </toc-element>
         </toc-element>
         <toc-element topic="TB-LDM.md"/>
         <toc-element topic="TB-PDM.md"/>
