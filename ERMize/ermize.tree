@@ -7,31 +7,23 @@
                   status="eap"
                  start-page="ERMize.topic">
 
-    <toc-element topic="ERMize.topic">
-    </toc-element>
-    <toc-element topic="text-based-features.md">
-        <toc-element topic="TB-CDM.md">
-            <toc-element topic="Creating-an-Entity.md">
-                <toc-element topic="Adding-Attributes.md"/>
-                <toc-element topic="Primary-Identifiers.md"/>
-                <toc-element topic="Domains.md"/>
-                <toc-element topic="Mandatory-Attributes.md"/>
-            </toc-element>
-            <toc-element topic="Creating-a-Relationship.md">
-                <toc-element topic="Naming-a-Relationship.md"/>
-                <toc-element topic="Cardinalities.md"/>
-                <toc-element topic="Dependencies.md"/>
-            </toc-element>
-            <toc-element topic="Creating-a-Subtype.md">
-                <toc-element topic="Subtype-Options.md"/>
-            </toc-element>
+    <toc-element topic="ERMize.topic"/>
+    <toc-element toc-title="Conceptual Data Model">
+        <toc-element topic="Creating-an-Entity.md">
+            <toc-element topic="Adding-Attributes.md"/>
+            <toc-element topic="Primary-Identifiers.md"/>
+            <toc-element topic="Domains.md"/>
+            <toc-element topic="Mandatory-Attributes.md"/>
         </toc-element>
-        <toc-element topic="TB-LDM.md"/>
-        <toc-element topic="TB-PDM.md"/>
+        <toc-element topic="Creating-a-Relationship.md">
+            <toc-element topic="Naming-a-Relationship.md"/>
+            <toc-element topic="Cardinalities.md"/>
+            <toc-element topic="Dependencies.topic"/>
+        </toc-element>
+        <toc-element topic="Creating-a-Subtype.topic">
+            <toc-element topic="Subtype-Options.topic"/>
+        </toc-element>
     </toc-element>
-    <toc-element topic="Visual-Features.md">
-        <toc-element topic="V-CDM.md"/>
-        <toc-element topic="V-LDM.md"/>
-        <toc-element topic="V-PDM.md"/>
-    </toc-element>
+    <toc-element toc-title="Logical Data Model"/>
+    <toc-element toc-title="Physical Data Model"/>
 </instance-profile>

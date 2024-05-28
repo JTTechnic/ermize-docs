@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/html-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Dependencies" id="Dependencies">
+
+    <available-only-for instance="ermize">Standard</available-only-for>
+
+    <chapter title="Code" id="code">
+        <code-block>
+            entity User {
+                username &lt;PI&gt; USRNAME &lt;M&gt;
+            }
+
+            entity UserEmail {
+                email &lt;PI&gt; EMAIL &lt;M&gt;
+            }
+
+            entity TaskList {
+                title &lt;PI&gt; TITLE &lt;M&gt;
+                description DESC
+            }
+
+            entity Task {
+                title &lt;PI&gt; TITLE &lt;M&gt;
+                description DESC
+                start_date SDATE &lt;M&gt;
+                end_date EDATE &lt;M&gt;
+                start_time STIME
+                end_time ETIME
+            }
+
+            User -|--|&lt;|{ UserEmail : EmailOfUser
+            User -|--o&lt;|{ TaskList : TaskListOfUser
+            TaskList }o--o{ User : SharedTaskList
+            TaskList -|--o&lt;|{ Task : TaskOfTaskList
+            Task }o--o- User : AssignedTo
+        </code-block>
+    </chapter>
+
+    <chapter title="Output" id="output">
+        <img src="dependencies.svg" alt="Dependencies"/>
+    </chapter>
+</topic>

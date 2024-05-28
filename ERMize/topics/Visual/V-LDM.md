@@ -1,3 +1,0 @@
-# LDM
-
-Start typing here...
