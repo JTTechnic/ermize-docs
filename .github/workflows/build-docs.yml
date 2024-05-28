@@ -10,8 +10,8 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'Features/f'
-  ARTIFACT: 'webHelpF2-all.zip'
+  INSTANCE: 'ERMize/ermize'
+  ARTIFACT: 'webHelpERMIZE2-all.zip'
   DOCKER_VERSION: '241.15989'
 
 jobs:
