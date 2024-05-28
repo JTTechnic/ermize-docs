@@ -1,5 +1,7 @@
 # Creating an Entity
 
+<available-only-for instance="ermize">Basic</available-only-for>
+
 This functionality allows users to define new entities within the application.
 An entity can be considered as an object or concept with specific properties and relationships.
 

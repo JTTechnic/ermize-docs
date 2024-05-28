@@ -23,5 +23,8 @@
     <li>
         <a href="Creating-a-Relationship.md">Creating a Relationship</a>
     </li>
+    <li>
+        <a href="Creating-a-Subtype.md">Creating a Subtype</a>
+    </li>
 </ul>
 </snippet>

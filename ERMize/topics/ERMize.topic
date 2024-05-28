@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/html-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Explore ERMize" id="ERMize">
+
+    <section-starting-page>
+        <title>Explore ERMize</title>
+        <description>
+        Explore the features ERMize has to offer.
+        </description>
+
+        <spotlight>
+            <a href="text-based-features.md" type="file" summary="Features that can be used in the text-based ERMize application." />
+            <a href="Visual-Features.md" type="presentation" summary="Features that can be used in the visual ERMize application." />
+        </spotlight>
+
+        <primary>
+            <title>Text-Based</title>
+            <a href="text-based-features.md" type="file" />
+        </primary>
+
+        <secondary>
+            <title>Visual</title>
+            <a href="Visual-Features.md" type="presentation" />
+        </secondary>
+    </section-starting-page>
+</topic>

@@ -2,13 +2,20 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
-    <build-profile instance="t">
+    <variables>
+        <header-logo>logo.svg</header-logo>
+        <custom-favicons>icon16.svg,icon32.svg,icon96.svg,icon300.svg,icon500.svg</custom-favicons>
+        <website-title>%instance% Documentation</website-title>
+    </variables>
+    <footer>
+        <copyright>2024 JTTechnic</copyright>
+    </footer>
+    <build-profile instance="ermize">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
-    <build-profile instance="n">
+    <build-profile instance="navigation">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>
