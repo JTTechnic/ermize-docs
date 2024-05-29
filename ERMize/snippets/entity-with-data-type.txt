@@ -1,0 +1,20 @@
+entity User {
+    username <pi> varchar(30)
+}
+
+entity TaskList {
+    title <pi> varchar(100)
+    owner <pi,fi> varchar(30)
+    description varchar(1000)
+}
+
+entity Task {
+    title <pi> varchar(100)
+    list_title <pi,fi1> varchar(100)
+    owner <pi,fi2> varchar(30)
+    description varchar(1000)
+    start_date date
+    end_date date
+    start_time time
+    end_time time
+}

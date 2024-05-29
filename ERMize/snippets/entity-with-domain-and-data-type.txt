@@ -1,0 +1,20 @@
+entity User {
+    username <pi> USRNAME varchar(30)
+}
+
+entity TaskList {
+    title <pi> TITLE varchar(100)
+    owner <pi,fi> USRNAME varchar(30)
+    description DESC varchar(1000)
+}
+
+entity Task {
+    title <pi> TITLE varchar(100)
+    list_title <pi,fi1> TITLE varchar(100)
+    owner <pi,fi2> USRNAME varchar(30)
+    description DESC varchar(1000)
+    start_date SDATE date
+    end_date EDATE date
+    start_time STIME time
+    end_time ETIME time
+}
