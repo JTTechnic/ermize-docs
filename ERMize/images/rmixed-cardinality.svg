@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="890" height="390" xmlns="http://www.w3.org/2000/svg">
+    <rect id="bg" width="100%" height="100%" x="0" y="0" rx="0" ry="0" fill="white" />
+    <g class="table" id="User" transform="translate(255)">
+        <rect width="235" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="127.5" y="30" fill="black" dominant-baseline="central" text-anchor="middle">User</text>
+        <rect width="235" height="30" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">username &lt;pi&gt; USRNAME &lt;M&gt;</text>
+    </g>
+    <g class="table" id="UserEmail" transform="translate(690)">
+        <rect width="180" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="100" y="30" fill="black" dominant-baseline="central" text-anchor="middle">UserEmail</text>
+        <rect width="180" height="30" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">email &lt;pi&gt; EMAIL &lt;M&gt;</text>
+    </g>
+    <g class="table" id="TaskList" transform="translate(282.5, 240)">
+        <rect width="180" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="100" y="30" fill="black" dominant-baseline="central" text-anchor="middle">TaskList</text>
+        <rect width="180" height="50" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;pi&gt; TITLE &lt;M&gt;</text>
+        <text x="20" y="85" fill="black" dominant-baseline="central">description DESC</text>
+    </g>
+    <g class="table" id="Task" transform="translate(695, 200)">
+        <rect width="170" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="95" y="30" fill="black" dominant-baseline="central" text-anchor="middle">Task</text>
+        <rect width="170" height="130" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;pi&gt; TITLE &lt;M&gt;</text>
+        <text x="20" y="85" fill="black" dominant-baseline="central">description DESC</text>
+        <text x="20" y="105" fill="black" dominant-baseline="central">start_date SDATE &lt;M&gt;</text>
+        <text x="20" y="125" fill="black" dominant-baseline="central">end_date EDATE &lt;M&gt;</text>
+        <text x="20" y="145" fill="black" dominant-baseline="central">start_time STIME</text>
+        <text x="20" y="165" fill="black" dominant-baseline="central">end_time ETIME</text>
+    </g>
+    <g class="table" id="SharedTaskList" transform="translate(45,130)">
+        <rect width="160" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="90" y="30" fill="black" dominant-baseline="central" text-anchor="middle">SharedTaskList</text>
+        <rect width="160" height="10" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+    </g>
+    <g class="reference" id="FK_USEREMAIL_USER" transform="translate(255)">
+        <polygon points="245,45 260,42 260,48" />
+        <line x1="245" y1="45" x2="445" y2="45" stroke-width="1" stroke="black" />
+        <text x="345" y="30" fill="black" dominant-baseline="central" text-anchor="middle">FK_USEREMAIL_USER</text>
+        <text x="420" y="60" fill="black" dominant-baseline="central" text-anchor="middle">1..*</text>
+    </g>
+    <g class="reference" id="FK_TASKLIST_USER" transform="translate(255)">
+        <line x1="127.5" y1="80" x2="127.5" y2="235" stroke-width="1" stroke="black" />
+        <polygon points="124.5,235 130.5,235 127.5,250" />
+        <text x="127.5" y="165" fill="black" dominant-baseline="central" text-anchor="middle">FK_TASKLIST_USER</text>
+        <text x="150" y="100" fill="black" dominant-baseline="central" text-anchor="middle">0..*</text>
+    </g>
+    <g class="reference" id="FK_TASK_TASKLIST" transform="translate(255)">
+        <polygon points="217.5,295 232.5,292 232.5,298" />
+        <line x1="232.5" y1="295" x2="450" y2="295" stroke-width="1" stroke="black" />
+        <text x="333.75" y="280" fill="black" dominant-baseline="central" text-anchor="middle">FK_TASK_TASKLIST</text>
+        <text x="420" y="310" fill="black" dominant-baseline="central" text-anchor="middle">0..*</text>
+    </g>
+    <g class="reference" id="FK_TASK_USER" transform="translate(255)">
+        <path d="M230 80 L227 95 L233 95 Z M230 95 L230 110 Z M230 110 L333.75 110 Z M333.75 110 L333.75 240 Z M333.75 240 L450 240" fill="black" stroke-width="1" stroke="black" />
+        <text x="333.75" y="160" fill="black" dominant-baseline="central" text-anchor="middle">FK_TASK_USER</text>
+        <text x="420" y="255" fill="black" dominant-baseline="central" text-anchor="middle">0..*</text>
+    </g>
+    <g class="reference" id="FK_SHAREDTASKLIST_USER" transform="translate(45)">
+        <path d="M90 140 L90 45 Z M90 45 L205 45 Z M205 42 L205 48 L220 45 Z" fill="black" stroke-width="1" stroke="black" />
+        <text x="90" y="30" fill="black" dominant-baseline="central" text-anchor="middle">FK_SHAREDTASKLIST_USER</text>
+        <text x="70" y="120" fill="black" dominant-baseline="central" text-anchor="middle">0..*</text>
+    </g>
+    <g class="reference" id="FK_SHAREDTASKLIST_USER" transform="translate(45)">
+        <path d="M90 190 L90 295 Z M90 295 L232.5 295 Z M232.5 292 L232.5 298 L247.5 295 Z" fill="black" stroke-width="1" stroke="black" />
+        <text x="90" y="280" fill="black" dominant-baseline="central" text-anchor="middle">FK_SHAREDTASKLIST_TASKLIST</text>
+        <text x="110" y="210" fill="black" dominant-baseline="central" text-anchor="middle">0..*</text>
+    </g>
+</svg>

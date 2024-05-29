@@ -40,6 +40,7 @@
         <toc-element toc-title="Keys">
             <toc-element topic="Primary-Keys.md"/>
             <toc-element topic="Foreign-Keys.md"/>
+            <toc-element toc-title="Naming Keys" hidden="true"/>
         </toc-element>
         <toc-element topic="Domains-and-Data-Types.md"/>
         <toc-element topic="Mandatory-Columns.md"/>
@@ -48,9 +49,9 @@
         <toc-element toc-title="Stereotypes" hidden="true"/>
     </toc-element>
     <toc-element toc-title="References">
-        <toc-element toc-title="Creating a Reference" hidden="true"/>
-        <toc-element toc-title="Naming a Reference" hidden="true"/>
-        <toc-element toc-title="Cardinalities" hidden="true"/>
+        <toc-element topic="Creating-a-Reference.md"/>
+        <toc-element topic="Naming-a-Reference.md"/>
+        <toc-element topic="RCardinalities.md"/>
         <toc-element toc-title="Update and Delete Constraints" hidden="true"/>
     </toc-element>
     <toc-element toc-title="Views" hidden="true"/>

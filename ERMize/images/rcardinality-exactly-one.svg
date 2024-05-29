@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="720" height="110" xmlns="http://www.w3.org/2000/svg">
+    <rect id="bg" width="100%" height="100%" x="0" y="0" rx="0" ry="0" fill="white" />
+    <g class="entity" id="User" transform="translate(0,10)">
+        <rect width="260" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="140" y="30" fill="black">
+            <tspan dominant-baseline="central" text-anchor="middle">User</tspan>
+        </text>
+        <rect width="260" height="30" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">username varchar(30) &lt;pk&gt; not null</text>
+    </g>
+    <g class="entity" id="TaskList" transform="translate(440)">
+        <rect width="260" height="50" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="140" y="30" fill="black">
+            <tspan dominant-baseline="central" text-anchor="middle">TaskList</tspan>
+        </text>
+        <rect width="260" height="50" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">title varchar(100) &lt;pk&gt; not null</text>
+        <text x="20" y="85" fill="black" dominant-baseline="central">description varchar(1000) null</text>
+    </g>
+    <g class="reference" id="PK_TASKLIST_USER">
+        <polygon points="270,55 285,52 285,58" />
+        <line x1="285" y1="55" x2="450" y2="55" stroke-width="1" stroke="black" />
+        <text x="360" y="40" fill="black" dominant-baseline="central" text-anchor="middle">FK_TASKLIST_USER</text>
+        <text  x="425" y="70" fill="black" dominant-baseline="central" text-anchor="middle">1..1</text>
+    </g>
+</svg>
