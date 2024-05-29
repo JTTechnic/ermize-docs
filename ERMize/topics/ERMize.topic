@@ -26,7 +26,7 @@
             <title>Relationships and Subtypes</title>
             <a href="Creating-a-Relationship.md" summary="Learn how to create relationships in ERMize." />
             <a href="Creating-a-Subtype.topic" summary="Learn how to create subtypes in ERMize." />
-<!--            <a href="Creating-a-Reference.topic" summary="Learn how to create references in ERMize." />-->
+            <a href="Creating-a-Reference.md" summary="Learn how to create references in ERMize." />
         </secondary>
 
 <!--        <misc>-->
