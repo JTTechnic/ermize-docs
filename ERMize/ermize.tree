@@ -17,6 +17,7 @@
         <toc-element toc-title="Identifiers">
             <toc-element topic="Primary-Identifiers.md"/>
             <toc-element topic="Foreign-Identifiers.topic"/>
+            <toc-element toc-title="Naming Identifiers" hidden="true"/>
         </toc-element>
         <toc-element topic="Domains.md"/>
         <toc-element topic="Mandatory-Attributes.md"/>
@@ -35,13 +36,13 @@
     <toc-element toc-title="Associations" hidden="true"/>
     <toc-element toc-title="Tables">
         <toc-element topic="Creating-a-Table.md"/>
-        <toc-element toc-title="Adding Columns"/>
-        <toc-element toc-title="Domains and Data Types"/>
+        <toc-element topic="Adding-Columns.md"/>
         <toc-element toc-title="Keys">
-            <toc-element toc-title="Primary Keys" hidden="true"/>
-            <toc-element toc-title="Foreign Keys" hidden="true"/>
+            <toc-element topic="Primary-Keys.md"/>
+            <toc-element topic="Foreign-Keys.md"/>
         </toc-element>
-        <toc-element toc-title="Mandatory Columns"/>
+        <toc-element topic="Domains-and-Data-Types.md"/>
+        <toc-element topic="Mandatory-Columns.md"/>
         <toc-element toc-title="Indexes" hidden="true"/>
         <toc-element toc-title="Triggers" hidden="true"/>
         <toc-element toc-title="Stereotypes" hidden="true"/>

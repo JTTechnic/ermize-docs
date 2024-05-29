@@ -1,0 +1,20 @@
+table User {
+    username USRNAME varchar(30) <pk>
+}
+
+table TaskList {
+    title TITLE varchar(100) <pk>
+    owner USRNAME varchar(30) <pk,fk>
+    description DESC varchar(1000)
+}
+
+table Task {
+    title TITLE varchar(100) <pk>
+    list_title TITLE varchar(100) <pk,fk1>
+    owner USRNAME varchar(30) <pk,fk2>
+    description DESC varchar(1000)
+    start_date SDATE date
+    end_date EDATE date
+    start_time STIME time
+    end_time ETIME time
+}

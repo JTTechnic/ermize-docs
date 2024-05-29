@@ -1,0 +1,8 @@
+table User {
+    username <pk>
+}
+
+table TaskList {
+    title <pk>
+    description
+}

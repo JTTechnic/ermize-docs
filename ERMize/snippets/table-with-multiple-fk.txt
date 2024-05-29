@@ -1,0 +1,20 @@
+table User {
+    username <pk>
+}
+
+table TaskList {
+    title <pk>
+    owner <pk,fk>
+    description
+}
+
+table Task {
+    title <pk>
+    list_title <pk,fk1>
+    owner <pk,fk2>
+    description
+    start_date
+    end_date
+    start_time
+    end_time
+}

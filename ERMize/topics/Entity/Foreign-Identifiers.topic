@@ -5,15 +5,13 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Foreign Identifiers" id="Foreign-Identifiers">
 
-    <available-only-for instance="ermize">Standard</available-only-for>
-
     <chapter title="Single Foreign Identifier" id="single_foreign_identifier">
         <chapter title="Code" id="code">
             <code-block src="entity-with-fi.txt"/>
         </chapter>
 
         <chapter title="Output" id="output">
-            <img src="entity-with-fi.svg" alt="Entity With Primary Identifier"/>
+            <img src="entity-with-fi.svg" alt="Entity With Foreign Identifier"/>
         </chapter>
     </chapter>
 
@@ -23,7 +21,7 @@
         </chapter>
 
         <chapter title="Output" id="output_1">
-            <img src="entity-with-multiple-fi.svg" alt="Entity With Multiple Primary Identifiers"/>
+            <img src="entity-with-multiple-fi.svg" alt="Entity With Multiple Foreign Identifiers"/>
         </chapter>
     </chapter>
 
