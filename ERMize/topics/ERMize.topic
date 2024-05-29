@@ -12,18 +12,20 @@
         </description>
 
         <spotlight>
-            <a href="#" type="file" summary="Features that can be used in the text-based ERMize application." />
-            <a href="#" type="presentation" summary="Features that can be used in the visual ERMize application." />
+            <a href="Getting-Started.md" type="start" summary="Install and use ERMize." />
+            <a href="Language-Reference.md" type="development" summary="Find available features quickly." />
         </spotlight>
 
         <primary>
-            <title>Text-Based</title>
-            <a href="#" type="file" summary="Temporary Summary" />
+            <title>Entities and Tables</title>
+            <a href="Creating-an-Entity.md" summary="Learn how to create entities in ERMize." />
+<!--            <a href="#" summary="Here will come a summary about tables" />-->
         </primary>
 
         <secondary>
-            <title>Visual</title>
-            <a href="#" type="presentation" summary="Temporary Summary" />
+            <title>Relationships</title>
+            <a href="Creating-a-Relationship.md" summary="Learn how to create relationships in ERMize." />
+            <a href="Creating-a-Subtype.topic" summary="Learn how to create subtypes in ERMize." />
         </secondary>
     </section-starting-page>
 </topic>
