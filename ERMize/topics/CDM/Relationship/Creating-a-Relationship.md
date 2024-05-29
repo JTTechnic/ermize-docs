@@ -1,22 +1,11 @@
 # Creating a Relationship
 
-## Introduction
-
 Put some text here to explain the feature...
 
-## Relationship
+## Code
 
-```
-entity User {
-    username <PI> USRNAME <M>
-}
+<code-block src="relationship.txt"/>
 
-entity TaskList {
-    title <PI> TITLE <M>
-    deschription DESC
-}
-
-User -- TaskList
-```
+## Output
 
 ![](relationship.svg)

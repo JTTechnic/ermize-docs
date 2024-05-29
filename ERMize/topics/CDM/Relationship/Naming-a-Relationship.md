@@ -1,16 +1,9 @@
 # Naming a Relationship
 
-```
-entity User {
-    username <PI> USRNAME <M>
-}
+## Code
 
-entity TaskList {
-    title <PI> TITLE <M>
-    description DESC
-}
+<code-block src="relationship-with-name.txt"/>
 
-User -- TaskList : TaskListOfUser
-```
+## Output
 
 ![](relationship-with-name.svg)

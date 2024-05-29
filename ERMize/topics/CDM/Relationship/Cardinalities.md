@@ -1,12 +1,5 @@
 # Cardinalities
 
-- [Cardinality Types](#cardinality-types)
-  - [Zero or One](#zero-or-one)
-  - [Exactly One](#exactly-one)
-  - [Zero or Many](#zero-or-many)
-  - [One or Many](#one-or-many)
-- [Mixing Cardinality Types](#mixing-cardinality-types)
-
 ## Cardinality Types
 
 | Type                          | Syntax                 |
@@ -16,79 +9,51 @@
 | [Zero or Many](#zero-or-many) | <code>}o--</code>      |
 | [One or Many](#one-or-many)   | <code>}&#124;--</code> |
 
-### Zero or One
+## Zero or One
 
 A user can have zero or one task lists and a task list can have zero or one users.
 
-```
-entity User {
-    username <PI> USRNAME <M>
-}
+### Code
 
-entity TaskList {
-    title <PI> TITLE <M>
-    description DESC
-}
+<code-block src="cardinality-zero-or-one.txt"/>
 
-User -o--o- TaskList : TaskListOfUser
-```
+### Output
 
 ![](cardinality-zero-or-one.svg)
 
-### Exactly One
+## Exactly One
 
 A user always has one task lists and a task list always has one user.
 
-```
-entity User {
-    username <PI> USRNAME <M>
-}
+### Code {id="code_1"}
 
-entity TaskList {
-    title <PI> TITLE <M>
-    description DESC
-}
+<code-block src="cardinality-exactly-one.txt"/>
 
-User -|--|- TaskList : TaskListOfUser
-```
+### Output {id="output_1"}
 
 ![](cardinality-exactly-one.svg)
 
-### Zero or Many
+## Zero or Many
 
 A user can have zero or more task lists and a task list can have zero or more users.
 
-```
-entity User {
-    username <PI> USRNAME <M>
-}
+### Code {id="code_2"}
 
-entity TaskList {
-    title <PI> TITLE <M>
-    description DESC
-}
+<code-block src="cardinality-zero-or-many.txt"/>
 
-User }o--o{ TaskList : TaskListOfUser
-```
+### Output {id="output_2"}
 
 ![](cardinality-zero-or-many.svg)
 
-### One or Many
+## One or Many
 
 A user always has one or more task lists and a task list always has one or more users.
 
-```
-entity User {
-    username <PI> USRNAME <M>
-}
+### Code {id="code_3"}
 
-entity TaskList {
-    title <PI> TITLE <M>
-    description DESC
-}
+<code-block src="cardinality-one-or-many.txt"/>
 
-User }|--|{ TaskList : TaskListOfUser
-```
+### Output {id="output_3"}
 
 ![](cardinality-one-or-many.svg)
 
@@ -107,34 +72,10 @@ The following applies in this diagram:
 - A task has zero or one users assigned to it. (AssignedTo)
 - A user has zero or more tasks assigned to them. (AssignedTo)
 
-```
-entity User {
-    username <PI> USRNAME <M>
-}
+### Code {id="code_4"}
 
-entity UserEmail {
-    email <PI> EMAIL <M>
-}
+<code-block src="mixed-cardinality.txt"/>
 
-entity TaskList {
-    title <PI> TITLE <M>
-    description DESC
-}
-
-entity Task {
-    title <PI> TITLE <M>
-    description DESC
-    start_date SDATE <M>
-    end_date EDATE <M>
-    start_time STIME
-    end_time ETIME
-}
-
-User -|--|{ UserEmail : EmailOfUser
-User -|--o{ TaskList : TaskListOfUser
-TaskList }o--o{ User : SharedTaskList
-TaskList -|--o{ Task : TaskOfTaskList
-Task }o--o- User : AssignedTo
-```
+### Output {id="output_4"}
 
 ![](mixed-cardinality.svg)

@@ -8,35 +8,7 @@
     <available-only-for instance="ermize">Standard</available-only-for>
 
     <chapter title="Code" id="code">
-        <code-block>
-            entity User {
-                username &lt;PI&gt; USRNAME &lt;M&gt;
-            }
-
-            entity UserEmail {
-                email &lt;PI&gt; EMAIL &lt;M&gt;
-            }
-
-            entity TaskList {
-                title &lt;PI&gt; TITLE &lt;M&gt;
-                description DESC
-            }
-
-            entity Task {
-                title &lt;PI&gt; TITLE &lt;M&gt;
-                description DESC
-                start_date SDATE &lt;M&gt;
-                end_date EDATE &lt;M&gt;
-                start_time STIME
-                end_time ETIME
-            }
-
-            User -|--|&lt;|{ UserEmail : EmailOfUser
-            User -|--o&lt;|{ TaskList : TaskListOfUser
-            TaskList }o--o{ User : SharedTaskList
-            TaskList -|--o&lt;|{ Task : TaskOfTaskList
-            Task }o--o- User : AssignedTo
-        </code-block>
+        <code-block src="dependencies.txt"/>
     </chapter>
 
     <chapter title="Output" id="output">

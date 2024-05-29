@@ -7,115 +7,24 @@
 
     <available-only-for instance="ermize">Standard</available-only-for>
 
-    <list>
-        <li><a href="#single_subtype">Single Subtype</a></li>
-        <li><a href="#multiple_subtypes">Multiple Subtypes</a></li>
-    </list>
-
     <chapter title="Single Subtype" id="single_subtype">
-
         <chapter title="Code" id="code">
-
-            <code-block>
-                entity User {
-                    username &lt;PI&gt; USRNAME &lt;M&gt;
-                }
-
-                entity UserEmail {
-                    email &lt;PI&gt; EMAIL &lt;M&gt;
-                }
-
-                entity TaskList {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    description DESC
-                }
-
-                entity Task {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    task_type TTYPE &lt;M&gt;
-                    description DESC
-                    start_date SDATE &lt;M&gt;
-                    end_date EDATE &lt;M&gt;
-                    start_time STIME
-                    end_time ETIME
-                }
-
-                entity SubTask {}
-
-                User -|--|&lt;|{ UserEmail : EmailOfUser
-                User -|--o&lt;|{ TaskList : TaskListOfUser
-                TaskList }o--o{ User : SharedTaskList
-                TaskList -|--o&lt;|{ Task : TaskOfTaskList
-                Task }o--o- User : AssignedTo
-                Task -|--o&lt;|{ SubTask : SubTaskOfTask
-
-                Task &lt;--()-- SubTask : TypeOfTask
-            </code-block>
-
+            <code-block src="subtype.txt"/>
         </chapter>
 
         <chapter title="Output" id="output">
-
             <img src="subtypes.svg" alt="Single Subtype"/>
-
         </chapter>
-
     </chapter>
 
     <chapter title="Multiple Subtypes" id="multiple_subtypes">
-
         <chapter title="Code" id="code_1">
-
-            <code-block>
-                entity User {
-                    username &lt;PI&gt; USRNAME &lt;M&gt;
-                }
-
-                entity UserEmail {
-                    email &lt;PI&gt; EMAIL &lt;M&gt;
-                }
-
-                entity TaskList {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    description DESC
-                }
-
-                entity Task {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    task_type TTYPE &lt;M&gt;
-                    description DESC
-                    start_date SDATE &lt;M&gt;
-                    end_date EDATE &lt;M&gt;
-                    start_time STIME
-                    end_time ETIME
-                }
-
-                entity UserStory {
-                    role &lt;PI&gt; ROLE &lt;M&gt;
-                    action &lt;PI&gt; ACTN &lt;M&gt;
-                    goal &lt;PI&gt; GOAL &lt;M&gt;
-                }
-
-                entity SubTask {}
-
-                User -|--|&lt;|{ UserEmail : EmailOfUser
-                User -|--o&lt;|{ TaskList : TaskListOfUser
-                TaskList }o--o{ User : SharedTaskList
-                TaskList -|--o&lt;|{ Task : TaskOfTaskList
-                Task }o--o- User : AssignedTo
-                Task -|--o&lt;|{ SubTask : SubTaskOfTask
-
-                Task &lt;--()-- UserStory, SubTask : TypeOfTask
-            </code-block>
-
+            <code-block src="subtype-multiple.txt"/>
         </chapter>
 
         <chapter title="Output" id="output_1">
-
             <img src="subtypes-multiple.svg" alt="Multiple Subtypes"/>
-
         </chapter>
-
     </chapter>
 
 </topic>

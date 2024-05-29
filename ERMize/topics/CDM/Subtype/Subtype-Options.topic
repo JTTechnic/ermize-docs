@@ -7,178 +7,34 @@
 
     <available-only-for instance="ermize">Standard</available-only-for>
 
-    <list>
-        <li><a href="#exclusive">Exclusive</a></li>
-        <li><a href="#complete">Complete</a></li>
-        <li><a href="#combining_options">Combining Options</a></li>
-    </list>
-
     <chapter title="Exclusive" id="exclusive">
-
         <chapter title="Code" id="code">
-
-            <code-block>
-                entity User {
-                    username &lt;PI&gt; USRNAME &lt;M&gt;
-                }
-
-                entity UserEmail {
-                    email &lt;PI&gt; EMAIL &lt;M&gt;
-                }
-
-                entity TaskList {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    description DESC
-                }
-
-                entity Task {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    task_type TTYPE &lt;M&gt;
-                    description DESC
-                    start_date SDATE &lt;M&gt;
-                    end_date EDATE &lt;M&gt;
-                    start_time STIME
-                    end_time ETIME
-                }
-
-                entity UserStory {
-                    role &lt;PI&gt; ROLE &lt;M&gt;
-                    action &lt;PI&gt; ACTN &lt;M&gt;
-                    goal &lt;PI&gt; GOAL &lt;M&gt;
-                }
-
-                entity SubTask {}
-
-                User -|--|&lt;|{ UserEmail : EmailOfUser
-                User -|--o&lt;|{ TaskList : TaskListOfUser
-                TaskList }o--o{ User : SharedTaskList
-                TaskList -|--o&lt;|{ Task : TaskOfTaskList
-                Task }o--o- User : AssignedTo
-                Task -|--o&lt;|{ SubTask : SubTaskOfTask
-
-                Task &lt;--(X)-- UserStory, SubTask : TypeOfTask
-            </code-block>
-
+            <code-block src="subtype-exclusive.txt"/>
         </chapter>
 
         <chapter title="Output" id="output">
-
             <img src="subtypes-exclusive.svg" alt="Exclusive Subtype"/>
-
         </chapter>
-
     </chapter>
 
     <chapter title="Complete" id="complete">
-
         <chapter title="Code" id="code_1">
-
-            <code-block>
-                entity User {
-                    username &lt;PI&gt; USRNAME &lt;M&gt;
-                }
-
-                entity UserEmail {
-                    email &lt;PI&gt; EMAIL &lt;M&gt;
-                }
-
-                entity TaskList {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    description DESC
-                }
-
-                entity Task {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    task_type TTYPE &lt;M&gt;
-                    description DESC
-                    start_date SDATE &lt;M&gt;
-                    end_date EDATE &lt;M&gt;
-                    start_time STIME
-                    end_time ETIME
-                }
-
-                entity UserStory {
-                    role &lt;PI&gt; ROLE &lt;M&gt;
-                    action &lt;PI&gt; ACTN &lt;M&gt;
-                    goal &lt;PI&gt; GOAL &lt;M&gt;
-                }
-
-                entity SubTask {}
-
-                User -|--|&lt;|{ UserEmail : EmailOfUser
-                User -|--o&lt;|{ TaskList : TaskListOfUser
-                TaskList }o--o{ User : SharedTaskList
-                TaskList -|--o&lt;|{ Task : TaskOfTaskList
-                Task }o--o- User : AssignedTo
-                Task -|--o&lt;|{ SubTask : SubTaskOfTask
-
-                Task &lt;--(__)-- UserStory, SubTask : TypeOfTask
-            </code-block>
-
+            <code-block src="subtype-complete.txt"/>
         </chapter>
 
         <chapter title="Output" id="output_1">
-
             <img src="subtypes-complete.svg" alt="Complete Subtype"/>
-
         </chapter>
-
     </chapter>
 
     <chapter title="Combining Options" id="combining_options">
-
         <chapter title="Code" id="code_2">
-
-            <code-block>
-                entity User {
-                    username &lt;PI&gt; USRNAME &lt;M&gt;
-                }
-
-                entity UserEmail {
-                    email &lt;PI&gt; EMAIL &lt;M&gt;
-                }
-
-                entity TaskList {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    description DESC
-                }
-
-                entity Task {
-                    title &lt;PI&gt; TITLE &lt;M&gt;
-                    task_type TTYPE &lt;M&gt;
-                    description DESC
-                    start_date SDATE &lt;M&gt;
-                    end_date EDATE &lt;M&gt;
-                    start_time STIME
-                    end_time ETIME
-                }
-
-                entity UserStory {
-                    role &lt;PI&gt; ROLE &lt;M&gt;
-                    action &lt;PI&gt; ACTN &lt;M&gt;
-                    goal &lt;PI&gt; GOAL &lt;M&gt;
-                }
-
-                entity SubTask {}
-
-                User -|--|&lt;|{ UserEmail : EmailOfUser
-                User -|--o&lt;|{ TaskList : TaskListOfUser
-                TaskList }o--o{ User : SharedTaskList
-                TaskList -|--o&lt;|{ Task : TaskOfTaskList
-                Task }o--o- User : AssignedTo
-                Task -|--o&lt;|{ SubTask : SubTaskOfTask
-
-                Task &lt;--(_X_)-- UserStory, SubTask : TypeOfTask
-            </code-block>
-
+            <code-block src="subtype-excl-and-comp.txt"/>
         </chapter>
 
         <chapter title="Output" id="output_2">
-
             <img src="subtypes-excl-and-comp.svg" alt="Exclusive and Complete Subtype"/>
-
         </chapter>
-
     </chapter>
 
 </topic>

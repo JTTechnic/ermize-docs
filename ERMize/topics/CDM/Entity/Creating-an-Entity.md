@@ -1,7 +1,5 @@
 # Creating an Entity
 
-<available-only-for instance="ermize">Basic</available-only-for>
-
 This functionality allows users to define new entities within the application.
 An entity can be considered as an object or concept with specific properties and relationships.
 
@@ -11,7 +9,7 @@ In the example below, a simple "User" entity is created without additional prope
 
 ## Code
 
-<code-block src="entity.txt" include-lines="1,3"></code-block>
+<code-block src="empty-entity.txt"/>
 
 This code snippet shows the basic definition of a "User" entity.
 As development progresses, more properties can be added to this entity.

@@ -2,11 +2,7 @@
 
 ## Code
 
-<code-block>
-entity User {
-    username
-}
-</code-block>
+<code-block src="entity-with-attributes.txt"/>
 
 ## Output
 

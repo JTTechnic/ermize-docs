@@ -1,9 +1,9 @@
 # Mandatory Attributes
 
-```
-entity User {
-    username <PI> USRNAME <M>
-}
-```
+## Code
+
+<code-block src="entity-with-mandatory.txt"/>
+
+## Output
 
 ![](entity-gebruiker-with-mandatory.svg)
