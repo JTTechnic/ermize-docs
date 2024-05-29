@@ -6,4 +6,4 @@
 
 ## Output
 
-![](entity-gebruiker-with-domain.svg)
+![](entity-with-domain.svg)

@@ -6,4 +6,4 @@
 
 ## Output
 
-![](entity-gebruiker-with-pi.svg)
+![](entity-with-pi.svg)

@@ -12,20 +12,34 @@
         </description>
 
         <spotlight>
-            <a href="Getting-Started.md" type="start" summary="Install and use ERMize." />
+            <a href="Getting-Started.md" type="start" summary="Install and create models with ERMize." />
             <a href="Language-Reference.md" type="development" summary="Find available features quickly." />
         </spotlight>
 
         <primary>
             <title>Entities and Tables</title>
             <a href="Creating-an-Entity.md" summary="Learn how to create entities in ERMize." />
-<!--            <a href="#" summary="Here will come a summary about tables" />-->
+            <a href="Creating-a-Table.md" summary="Learn how to create tables in ERMize." />
         </primary>
 
         <secondary>
-            <title>Relationships</title>
+            <title>Relationships and Subtypes</title>
             <a href="Creating-a-Relationship.md" summary="Learn how to create relationships in ERMize." />
             <a href="Creating-a-Subtype.topic" summary="Learn how to create subtypes in ERMize." />
+<!--            <a href="Creating-a-Reference.topic" summary="Learn how to create references in ERMize." />-->
         </secondary>
+
+<!--        <misc>-->
+<!--            <cards>-->
+<!--                <title>Associations</title>-->
+<!--                <a href="Creating-an-Association.md" summary="Learn how to create associations in ERMize."/>-->
+<!--            </cards>-->
+<!--            -->
+<!--            <cards>-->
+<!--                <title>Views and Procedures</title>-->
+<!--                <a href="Creating-a-View.md" summary="Learn how to create views in ERMize." />-->
+<!--                <a href="Creating-a-Procedure.md" summary="Learn how to create procedures in ERMize." />-->
+<!--            </cards>-->
+<!--        </misc>-->
     </section-starting-page>
 </topic>

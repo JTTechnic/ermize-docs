@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<svg width="635" height="390" xmlns="http://www.w3.org/2000/svg">
+<svg width="722.5" height="390" xmlns="http://www.w3.org/2000/svg">
     <rect id="bg" width="100%" height="100%" x="0" y="0" rx="0" ry="0" fill="white" />
-    <g class="entity" id="User">
+    <g class="entity" id="User" transform="translate(22.5)">
         <path d="M10 10 L245 10 L245 50 L10 50 Z M10 50 L10 80 L245 80 L245 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
             <text x="127.5" y="30" dominant-baseline="central" text-anchor="middle">User</text>
-            <text x="20" y="65" dominant-baseline="central">username &lt;PI&gt; USRNAME &lt;M&gt;</text>
+            <text x="20" y="65" dominant-baseline="central">username &lt;pi&gt; USRNAME &lt;M&gt;</text>
         </g>
     </g>
-    <g class="entity" id="UserEmail" transform="translate(435)">
-        <path d="M10 10 L190 10 L190 50 L10 50 Z M10 50 L10 80 L190 80 L190 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
+    <g class="entity" id="UserEmail" transform="translate(457.5)">
+        <path d="M10 10 L255 10 L255 50 L10 50 Z M10 50 L10 100 L255 100 L255 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
-            <text x="100" y="30" dominant-baseline="central" text-anchor="middle">UserEmail</text>
-            <text x="20" y="65" dominant-baseline="central">email &lt;PI&gt; EMAIL &lt;M&gt;</text>
+            <text x="132.5" y="30" dominant-baseline="central" text-anchor="middle">UserEmail</text>
+            <text x="20" y="65" dominant-baseline="central">email &lt;pi&gt; EMAIL &lt;M&gt;</text>
+            <text x="20" y="85" dominant-baseline="central">username &lt;pi,fi&gt; USRNAME &lt;M&gt;</text>
         </g>
     </g>
-    <g class="entity" id="TaskList" transform="translate(27.5, 240)">
-        <path d="M10 10 L190 10 L190 50 L10 50 Z M10 50 L10 100 L190 100 L190 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
+    <g class="entity" id="TaskList" transform="translate(5, 240)">
+        <path d="M10 10 L235 10 L235 50 L10 50 Z M10 50 L10 120 L235 120 L235 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
-            <text x="100" y="30" dominant-baseline="central" text-anchor="middle">TaskList</text>
-            <text x="20" y="65" dominant-baseline="central">title &lt;PI&gt; TITLE &lt;M&gt;</text>
-            <text x="20" y="85" dominant-baseline="central">description DESC</text>
+            <text x="117.5" y="30" dominant-baseline="central" text-anchor="middle">TaskList</text>
+            <text x="20" y="65" dominant-baseline="central">title &lt;pi&gt; TITLE &lt;M&gt;</text>
+            <text x="20" y="85" dominant-baseline="central">owner &lt;pi,fi&gt; USRNAME &lt;M&gt;</text>
+            <text x="20" y="105" dominant-baseline="central">description DESC</text>
         </g>
     </g>
-    <g class="entity" id="Task" transform="translate(440, 200)">
-        <path d="M10 10 L180 10 L180 50 L10 50 Z M10 50 L10 180 L180 180 L180 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
+    <g class="entity" id="Task" transform="translate(462.5, 160)">
+        <path d="M10 10 L240 10 L240 50 L10 50 Z M10 50 L10 220 L240 220 L240 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
-            <text x="95" y="30" dominant-baseline="central" text-anchor="middle">Task</text>
-            <text x="20" y="65" dominant-baseline="central">title &lt;PI&gt; TITLE &lt;M&gt;</text>
-            <text x="20" y="85" dominant-baseline="central">description DESC</text>
-            <text x="20" y="105" dominant-baseline="central">start_date SDATE &lt;M&gt;</text>
-            <text x="20" y="125" dominant-baseline="central">end_date EDATE &lt;M&gt;</text>
-            <text x="20" y="145" dominant-baseline="central">start_time STIME</text>
-            <text x="20" y="165" dominant-baseline="central">end_time ETIME</text>
+            <text x="125" y="30" dominant-baseline="central" text-anchor="middle">Task</text>
+            <text x="20" y="65" dominant-baseline="central">title &lt;pi&gt; TITLE &lt;M&gt;</text>
+            <text x="20" y="85" dominant-baseline="central">list_title &lt;pi,fi1&gt; TITLE &lt;M&gt;</text>
+            <text x="20" y="105" dominant-baseline="central">owner &lt;pi,fi2&gt; USRNAME &lt;M&gt;</text>
+            <text x="20" y="125" dominant-baseline="central">description DESC</text>
+            <text x="20" y="145" dominant-baseline="central">start_date SDATE &lt;M&gt;</text>
+            <text x="20" y="165" dominant-baseline="central">end_date EDATE &lt;M&gt;</text>
+            <text x="20" y="185" dominant-baseline="central">start_time STIME</text>
+            <text x="20" y="205" dominant-baseline="central">end_time ETIME</text>
         </g>
     </g>
-    <g class="relationship" id="EmailOfUser" stroke-width="1" stroke="black" fill="none">
+    <g class="relationship" id="EmailOfUser" stroke-width="1" stroke="black" fill="none" transform="translate(22.5)">
         <line x1="255" y1="37.5" x2="255" y2="52.5" />
         <line x1="245" y1="45" x2="405" y2="45" />
         <line x1="405" y1="37.5" x2="405" y2="52.5" />
@@ -69,7 +73,7 @@
         <line x1="172.5" y1="240" x2="182.5" y2="250" stroke-width="1" stroke="black" />
         <text x="172.5" y="165" fill="black" dominant-baseline="central" text-anchor="middle">SharedTaskList</text>
     </g>
-    <g class="relationship" id="TaskOfTaskList" stroke-width="1" stroke="black" fill="none">
+    <g class="relationship" id="TaskOfTaskList" stroke-width="1" stroke="black" fill="none" transform="translate(22.5)">
         <line x1="227.5" y1="287.5" x2="227.5" y2="302.5" />
         <line x1="217.5" y1="295" x2="400" y2="295" />
         <circle r="5" cx="405" cy="295" />
@@ -79,7 +83,7 @@
         <line x1="435" y1="300" x2="450" y2="300" />
         <text x="333.75" y="280" fill="black" stroke="none" dominant-baseline="central" text-anchor="middle">TaskOfTaskList</text>
     </g>
-    <g class="relationship" id="AssignedTo">
+    <g class="relationship" id="AssignedTo" transform="translate(22.5)">
         <path d="M230 80 L230 90 A5 5, 0, 0 0, 230 100 M230 90 A5 5, 0, 0 1, 230 100 L230 110 L333.75 110 L333.75 240 L430 240 A5 5, 0, 1 0, 435 235 M430 240 A5 5, 0, 0 1, 435 235 M440 240 L450 240 M440 240 L450 230 M440 240 L450 250" fill="none" stroke-width="1" stroke="black" />
         <text x="333.75" y="160" fill="black" dominant-baseline="central" text-anchor="middle">AssignedTo</text>
     </g>

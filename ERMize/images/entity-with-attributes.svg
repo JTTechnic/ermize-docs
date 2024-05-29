@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<svg width="620" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg width="620" height="110" xmlns="http://www.w3.org/2000/svg">
     <rect id="bg" width="100%" height="100%" x="0" y="0" rx="0" ry="0" fill="white" />
-    <g class="entity" transform="translate(0,10)">
+    <g class="entity">
         <rect width="260" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
-        <text x="140" y="30" fill="black">
-            <tspan dominant-baseline="central" text-anchor="middle">User</tspan>
-        </text>
+        <text x="140" y="30" fill="black" dominant-baseline="central" text-anchor="middle">User</text>
         <rect width="260" height="30" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
-        <text x="20" y="65" fill="black" dominant-baseline="central">username &lt;pi&gt; USRNAME &lt;M&gt;</text>
+        <text x="20" y="65" fill="black" dominant-baseline="central">username</text>
     </g>
     <g class="entity" transform="translate(340)">
         <rect width="260" height="50" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
@@ -15,8 +13,7 @@
             <tspan dominant-baseline="central" text-anchor="middle">TaskList</tspan>
         </text>
         <rect width="260" height="50" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
-        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;pi&gt; TITLE &lt;M&gt;</text>
-        <text x="20" y="85" fill="black" dominant-baseline="central">description DESC</text>
+        <text x="20" y="65" fill="black" dominant-baseline="central">title</text>
+        <text x="20" y="85" fill="black" dominant-baseline="central">description</text>
     </g>
-    <line x1="270" y1="55" x2="350" y2="55" stroke-width="1" stroke="black" />
 </svg>

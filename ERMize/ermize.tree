@@ -11,39 +11,57 @@
         <toc-element topic="Getting-Started.md"/>
         <toc-element topic="Language-Reference.md"/>
     </toc-element>
-    <toc-element toc-title="Conceptual Data Model">
-        <toc-element toc-title="Entities">
-            <toc-element topic="Creating-an-Entity.md"/>
-            <toc-element topic="Adding-Attributes.md"/>
+    <toc-element toc-title="Entities">
+        <toc-element topic="Creating-an-Entity.md"/>
+        <toc-element topic="Adding-Attributes.md"/>
+        <toc-element toc-title="Identifiers">
             <toc-element topic="Primary-Identifiers.md"/>
-            <toc-element topic="Domains.md"/>
-            <toc-element topic="Mandatory-Attributes.md"/>
-            <toc-element toc-title="Identifiers"/>
+            <toc-element topic="Foreign-Identifiers.topic"/>
         </toc-element>
-        <toc-element toc-title="Relationships">
-            <toc-element topic="Creating-a-Relationship.md"/>
-            <toc-element topic="Naming-a-Relationship.md"/>
-            <toc-element topic="Cardinalities.md"/>
-            <toc-element topic="Dependencies.topic"/>
+        <toc-element topic="Domains.md"/>
+        <toc-element topic="Mandatory-Attributes.md"/>
+        <toc-element toc-title="Stereotypes" hidden="true"/>
+    </toc-element>
+    <toc-element toc-title="Relationships">
+        <toc-element topic="Creating-a-Relationship.md"/>
+        <toc-element topic="Naming-a-Relationship.md"/>
+        <toc-element topic="Cardinalities.md"/>
+        <toc-element topic="Dependencies.topic"/>
+    </toc-element>
+    <toc-element toc-title="Subtypes">
+        <toc-element topic="Creating-a-Subtype.topic"/>
+        <toc-element topic="Subtype-Options.topic"/>
+    </toc-element>
+    <toc-element toc-title="Associations" hidden="true"/>
+    <toc-element toc-title="Tables">
+        <toc-element topic="Creating-a-Table.md"/>
+        <toc-element toc-title="Adding Columns"/>
+        <toc-element toc-title="Domains and Data Types"/>
+        <toc-element toc-title="Keys">
+            <toc-element toc-title="Primary Keys" hidden="true"/>
+            <toc-element toc-title="Foreign Keys" hidden="true"/>
         </toc-element>
-        <toc-element toc-title="Subtypes">
-            <toc-element topic="Creating-a-Subtype.topic"/>
-            <toc-element topic="Subtype-Options.topic"/>
-        </toc-element>
-        <toc-element toc-title="Associations"/>
+        <toc-element toc-title="Mandatory Columns"/>
+        <toc-element toc-title="Indexes" hidden="true"/>
+        <toc-element toc-title="Triggers" hidden="true"/>
+        <toc-element toc-title="Stereotypes" hidden="true"/>
     </toc-element>
-    <toc-element toc-title="Logical Data Model">
-        <toc-element toc-title="Entities" hidden="true"/>
-        <toc-element toc-title="Relationships" hidden="true"/>
-        <toc-element toc-title="n-n Relationships" hidden="true"/>
-        <toc-element toc-title="Subtypes" hidden="true"/>
+    <toc-element toc-title="References">
+        <toc-element toc-title="Creating a Reference" hidden="true"/>
+        <toc-element toc-title="Naming a Reference" hidden="true"/>
+        <toc-element toc-title="Cardinalities" hidden="true"/>
+        <toc-element toc-title="Update and Delete Constraints" hidden="true"/>
     </toc-element>
-    <toc-element toc-title="Physical Data Model">
-        <toc-element toc-title="Tables" hidden="true"/>
-        <toc-element toc-title="References" hidden="true"/>
-        <toc-element toc-title="Views" hidden="true"/>
-        <toc-element toc-title="Procedures" hidden="true"/>
+    <toc-element toc-title="Views" hidden="true"/>
+    <toc-element toc-title="Procedures" hidden="true"/>
+    <toc-element toc-title="Styling" hidden="true">
+        <toc-element toc-title="Positioning" hidden="true"/>
+        <toc-element toc-title="Colors" hidden="true"/>
+        <toc-element toc-title="Themes" hidden="true"/>
     </toc-element>
-    <toc-element toc-title="Styling" hidden="true"/>
-    <toc-element toc-title="Miscellaneous" hidden="true"/>
+    <toc-element toc-title="Miscellaneous" hidden="true">
+        <toc-element toc-title="Notes" hidden="true"/>
+        <toc-element toc-title="Files" hidden="true"/>
+        <toc-element toc-title="Packages" hidden="true"/>
+    </toc-element>
 </instance-profile>

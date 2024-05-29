@@ -5,21 +5,21 @@
         <path d="M10 10 L245 10 L245 50 L10 50 Z M10 50 L10 80 L245 80 L245 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
             <text x="127.5" y="30" dominant-baseline="central" text-anchor="middle">User</text>
-            <text x="20" y="65" dominant-baseline="central">username &lt;PI&gt; USRNAME &lt;M&gt;</text>
+            <text x="20" y="65" dominant-baseline="central">username &lt;pi&gt; USRNAME &lt;M&gt;</text>
         </g>
     </g>
     <g class="entity" id="UserEmail" transform="translate(435)">
         <path d="M10 10 L190 10 L190 50 L10 50 Z M10 50 L10 80 L190 80 L190 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
             <text x="100" y="30" dominant-baseline="central" text-anchor="middle">UserEmail</text>
-            <text x="20" y="65" dominant-baseline="central">email &lt;PI&gt; EMAIL &lt;M&gt;</text>
+            <text x="20" y="65" dominant-baseline="central">email &lt;pi&gt; EMAIL &lt;M&gt;</text>
         </g>
     </g>
     <g class="entity" id="TaskList" transform="translate(27.5, 240)">
         <path d="M10 10 L190 10 L190 50 L10 50 Z M10 50 L10 100 L190 100 L190 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
             <text x="100" y="30" dominant-baseline="central" text-anchor="middle">TaskList</text>
-            <text x="20" y="65" dominant-baseline="central">title &lt;PI&gt; TITLE &lt;M&gt;</text>
+            <text x="20" y="65" dominant-baseline="central">title &lt;pi&gt; TITLE &lt;M&gt;</text>
             <text x="20" y="85" dominant-baseline="central">description DESC</text>
         </g>
     </g>
@@ -27,7 +27,7 @@
         <path d="M10 10 L180 10 L180 50 L10 50 Z M10 50 L10 200 L180 200 L180 50 Z" fill="lightgrey" stroke-width="1" stroke="black" />
         <g class="entity-text" fill="black">
             <text x="95" y="30" dominant-baseline="central" text-anchor="middle">Task</text>
-            <text x="20" y="65" dominant-baseline="central">title &lt;PI&gt; TITLE &lt;M&gt;</text>
+            <text x="20" y="65" dominant-baseline="central">title &lt;pi&gt; TITLE &lt;M&gt;</text>
             <text x="20" y="85" dominant-baseline="central">task_type TTYPE &lt;M&gt;</text>
             <text x="20" y="105" dominant-baseline="central">description DESC</text>
             <text x="20" y="125" dominant-baseline="central">start_date SDATE &lt;M&gt;</text>

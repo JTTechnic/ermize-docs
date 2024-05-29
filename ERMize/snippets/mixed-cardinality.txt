@@ -1,18 +1,18 @@
 entity User {
-    username <PI> USRNAME <M>
+    username <pi> USRNAME <M>
 }
 
 entity UserEmail {
-    email <PI> EMAIL <M>
+    email <pi> EMAIL <M>
 }
 
 entity TaskList {
-    title <PI> TITLE <M>
+    title <pi> TITLE <M>
     description DESC
 }
 
 entity Task {
-    title <PI> TITLE <M>
+    title <pi> TITLE <M>
     description DESC
     start_date SDATE <M>
     end_date EDATE <M>

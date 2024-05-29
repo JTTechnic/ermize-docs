@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/html-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Foreign Identifiers" id="Foreign-Identifiers">
+
+    <available-only-for instance="ermize">Standard</available-only-for>
+
+    <chapter title="Single Foreign Identifier" id="single_foreign_identifier">
+        <chapter title="Code" id="code">
+            <code-block src="entity-with-fi.txt"/>
+        </chapter>
+
+        <chapter title="Output" id="output">
+            <img src="entity-with-fi.svg" alt="Entity With Primary Identifier"/>
+        </chapter>
+    </chapter>
+
+    <chapter title="Multiple Foreign Identifiers" id="multiple_foreign_identifiers">
+        <chapter title="Code" id="code_1">
+            <code-block src="entity-with-multiple-fi.txt"/>
+        </chapter>
+
+        <chapter title="Output" id="output_1">
+            <img src="entity-with-multiple-fi.svg" alt="Entity With Multiple Primary Identifiers"/>
+        </chapter>
+    </chapter>
+
+</topic>

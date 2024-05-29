@@ -1,9 +1,9 @@
 entity User {
-    username <PI> USRNAME <M>
+    username <pi> USRNAME <M>
 }
 
 entity TaskList {
-    title <PI> TITLE <M>
+    title <pi> TITLE <M>
     deschription DESC
 }
 

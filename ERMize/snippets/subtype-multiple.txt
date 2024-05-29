@@ -1,18 +1,18 @@
 entity User {
-    username <PI> USRNAME <M>
+    username <pi> USRNAME <M>
 }
 
 entity UserEmail {
-    email <PI> EMAIL <M>
+    email <pi> EMAIL <M>
 }
 
 entity TaskList {
-    title <PI> TITLE <M>
+    title <pi> TITLE <M>
     description DESC
 }
 
 entity Task {
-    title <PI> TITLE <M>
+    title <pi> TITLE <M>
     task_type TTYPE <M>
     description DESC
     start_date SDATE <M>
@@ -22,9 +22,9 @@ entity Task {
 }
 
 entity UserStory {
-    role <PI> ROLE <M>
-    action <PI> ACTN <M>
-    goal <PI> GOAL <M>
+    role <pi> ROLE <M>
+    action <pi> ACTN <M>
+    goal <pi> GOAL <M>
 }
 
 entity SubTask {}

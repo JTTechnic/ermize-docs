@@ -6,4 +6,4 @@
 
 ## Output
 
-![](entity-gebruiker-with-mandatory.svg)
+![](entity-with-mandatory.svg)

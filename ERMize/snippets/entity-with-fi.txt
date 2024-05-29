@@ -1,8 +1,9 @@
 entity User {
-    username
+    username <pi>
 }
 
 entity TaskList {
-    title
+    title <pi>
+    owner <pi,fi>
     description
 }

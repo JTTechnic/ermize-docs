@@ -6,4 +6,4 @@
 
 ## Output
 
-![](entity-gebruiker-with-attributes.svg)
+![](entity-with-attributes.svg)

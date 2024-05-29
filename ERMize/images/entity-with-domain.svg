@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="635" height="410" xmlns="http://www.w3.org/2000/svg">
+    <rect id="bg" width="100%" height="100%" x="0" y="0" rx="0" ry="0" fill="white" />
+    <g class="entity">
+        <rect width="260" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="140" y="30" fill="black" dominant-baseline="central" text-anchor="middle">User</text>
+        <rect width="260" height="30" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">username &lt;pi&gt; USRNAME</text>
+    </g>
+    <g class="entity" id="TaskList" transform="translate(30, 230)">
+        <rect width="185" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="100" y="30" fill="black" dominant-baseline="central" text-anchor="middle">TaskList</text>
+        <rect width="185" height="70" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;pi&gt; TITLE</text>
+        <text x="20" y="85" fill="black" dominant-baseline="central">owner &lt;pi,fi&gt; USRNAME</text>
+        <text x="20" y="105" fill="black" dominant-baseline="central">description DESC</text>
+    </g>
+    <g class="entity" id="Task" transform="translate(420, 180)">
+        <rect width="195" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="110" y="30" fill="black" dominant-baseline="central" text-anchor="middle">Task</text>
+        <rect width="195" height="170" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;pi&gt; TITLE</text>
+        <text x="20" y="85" fill="black" dominant-baseline="central">list_title &lt;pi,fi1&gt; TITLE</text>
+        <text x="20" y="105" fill="black" dominant-baseline="central">owner &lt;pi,fi2&gt; USRNAME</text>
+        <text x="20" y="125" fill="black" dominant-baseline="central">description DESC</text>
+        <text x="20" y="145" fill="black" dominant-baseline="central">start_date SDATE</text>
+        <text x="20" y="165" fill="black" dominant-baseline="central">end_date EDATE</text>
+        <text x="20" y="185" fill="black" dominant-baseline="central">start_time STIME</text>
+        <text x="20" y="205" fill="black" dominant-baseline="central">end_time ETIME</text>
+    </g>
+</svg>

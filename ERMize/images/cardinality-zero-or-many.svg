@@ -7,7 +7,7 @@
             <tspan dominant-baseline="central" text-anchor="middle">User</tspan>
         </text>
         <rect width="260" height="30" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
-        <text x="20" y="65" fill="black" dominant-baseline="central">username &lt;PI&gt; USRNAME &lt;M&gt;</text>
+        <text x="20" y="65" fill="black" dominant-baseline="central">username &lt;pi&gt; USRNAME &lt;M&gt;</text>
     </g>
     <g class="entity" id="TaskList" transform="translate(430)">
         <rect width="260" height="50" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
@@ -15,7 +15,7 @@
             <tspan dominant-baseline="central" text-anchor="middle">TaskList</tspan>
         </text>
         <rect width="260" height="50" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
-        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;PI&gt; TITLE &lt;M&gt;</text>
+        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;pi&gt; TITLE &lt;M&gt;</text>
         <text x="20" y="85" fill="black" dominant-baseline="central">description DESC</text>
     </g>
     <g class="relationship" id="TaskListOfUser">
