@@ -10,6 +10,8 @@ A task list has zero or one users.
 
 ### Output
 
+<note>This is a concept image and not the actual result of the application.</note>
+
 ![](rcardinality-zero-or-one.svg)
 
 ## Exactly One
@@ -21,6 +23,8 @@ A task list has one user.
 <code-block src="rcardinality-exactly-one.txt"/>
 
 ### Output {id="output_1"}
+
+<note>This is a concept image and not the actual result of the application.</note>
 
 ![](rcardinality-exactly-one.svg)
 
@@ -34,6 +38,8 @@ A task list has zero or more users.
 
 ### Output {id="output_2"}
 
+<note>This is a concept image and not the actual result of the application.</note>
+
 ![](rcardinality-zero-or-many.svg)
 
 ## One or Many
@@ -45,6 +51,8 @@ A task list has one or more users.
 <code-block src="rcardinality-one-or-many.txt"/>
 
 ### Output {id="output_3"}
+
+<note>This is a concept image and not the actual result of the application.</note>
 
 ![](rcardinality-one-or-many.svg)
 
@@ -64,5 +72,7 @@ The following applies in this diagram:
 <code-block src="rmixed-cardinality.txt"/>
 
 ### Output {id="output_4"}
+
+<note>This is a concept image and not the actual result of the application.</note>
 
 ![](rmixed-cardinality.svg)

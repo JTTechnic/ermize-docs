@@ -18,7 +18,4 @@ As development progresses, more properties can be added to this entity.
 
 <note>This is a concept image and not the actual result of the application.</note>
 
-![A simple "User" entity](empty-entity.svg "A simple \"User\" entity")
-
-The image above provides a visual representation of the created entity.
-It serves as an example of how the entity might appear in a diagram or model within the application.
+![A simple "User" entity](empty-entity.png "A simple \"User\" entity")

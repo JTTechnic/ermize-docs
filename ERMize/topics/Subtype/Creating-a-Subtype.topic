@@ -13,6 +13,7 @@
         </chapter>
 
         <chapter title="Output" id="output">
+            <note>This is a concept image and not the actual result of the application.</note>
             <img src="subtypes.svg" alt="Single Subtype"/>
         </chapter>
     </chapter>
@@ -23,6 +24,7 @@
         </chapter>
 
         <chapter title="Output" id="output_1">
+            <note>This is a concept image and not the actual result of the application.</note>
             <img src="subtypes-multiple.svg" alt="Multiple Subtypes"/>
         </chapter>
     </chapter>

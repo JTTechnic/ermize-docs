@@ -8,4 +8,6 @@ Put some text here to explain the feature...
 
 ## Output
 
-![](relationship.svg)
+<note>This is a concept image and not the actual result of the application.</note>
+
+![](relationship.png)

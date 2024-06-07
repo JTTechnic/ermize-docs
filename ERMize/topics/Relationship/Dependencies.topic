@@ -12,6 +12,7 @@
     </chapter>
 
     <chapter title="Output" id="output">
+        <note>This is a concept image and not the actual result of the application.</note>
         <img src="dependencies.svg" alt="Dependencies"/>
     </chapter>
 </topic>

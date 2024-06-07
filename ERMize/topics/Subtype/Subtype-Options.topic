@@ -13,6 +13,7 @@
         </chapter>
 
         <chapter title="Output" id="output">
+            <note>This is a concept image and not the actual result of the application.</note>
             <img src="subtypes-exclusive.svg" alt="Exclusive Subtype"/>
         </chapter>
     </chapter>
@@ -23,6 +24,7 @@
         </chapter>
 
         <chapter title="Output" id="output_1">
+            <note>This is a concept image and not the actual result of the application.</note>
             <img src="subtypes-complete.svg" alt="Complete Subtype"/>
         </chapter>
     </chapter>
@@ -33,6 +35,7 @@
         </chapter>
 
         <chapter title="Output" id="output_2">
+            <note>This is a concept image and not the actual result of the application.</note>
             <img src="subtypes-excl-and-comp.svg" alt="Exclusive and Complete Subtype"/>
         </chapter>
     </chapter>

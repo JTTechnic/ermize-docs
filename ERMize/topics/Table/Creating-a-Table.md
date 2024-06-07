@@ -6,4 +6,6 @@
 
 ## Output
 
+<note>This is a concept image and not the actual result of the application.</note>
+
 ![A simple "User" table](empty-entity.svg "A simple \"User\" table")

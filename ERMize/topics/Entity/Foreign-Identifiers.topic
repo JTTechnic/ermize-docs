@@ -11,7 +11,8 @@
         </chapter>
 
         <chapter title="Output" id="output">
-            <img src="entity-with-fi.svg" alt="Entity With Foreign Identifier"/>
+            <note>This is a concept image and not the actual result of the application.</note>
+            <img src="entity-with-fi.png" alt="Entity With Foreign Identifier"/>
         </chapter>
     </chapter>
 
@@ -21,7 +22,8 @@
         </chapter>
 
         <chapter title="Output" id="output_1">
-            <img src="entity-with-multiple-fi.svg" alt="Entity With Multiple Foreign Identifiers"/>
+            <note>This is a concept image and not the actual result of the application.</note>
+            <img src="entity-with-multiple-fi.png" alt="Entity With Multiple Foreign Identifiers"/>
         </chapter>
     </chapter>
 

@@ -8,6 +8,8 @@
 
 ### Output
 
+<note>This is a concept image and not the actual result of the application.</note>
+
 ![](table-with-domain.svg)
 
 ## Data Types
@@ -18,6 +20,8 @@
 
 ### Output {id="output_1"}
 
+<note>This is a concept image and not the actual result of the application.</note>
+
 ![](table-with-data-types.svg)
 
 ## Combining Domains and Data Types
@@ -27,5 +31,7 @@
 <code-block src="table-with-domains-and-data-types.txt"/>
 
 ### Output {id="output_2"}
+
+<note>This is a concept image and not the actual result of the application.</note>
 
 ![](table-with-domains-and-data-types.svg)

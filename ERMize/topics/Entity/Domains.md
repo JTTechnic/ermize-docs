@@ -8,7 +8,9 @@
 
 ### Output
 
-![](entity-with-domain.svg)
+<note>This is a concept image and not the actual result of the application.</note>
+
+![](entity-with-domain.png)
 
 ## Data Types
 
@@ -18,7 +20,9 @@
 
 ### Output {id="output_1"}
 
-![](entity-with-data-type.svg)
+<note>This is a concept image and not the actual result of the application.</note>
+
+![](entity-with-data-type.png)
 
 ## Combining Domains and Data Types
 
@@ -28,4 +32,6 @@
 
 ### Output {id="output_2"}
 
-![](entity-with-domain-and-data-type.svg)
+<note>This is a concept image and not the actual result of the application.</note>
+
+![](entity-with-domain-and-data-type.png)

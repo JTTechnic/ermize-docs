@@ -6,4 +6,6 @@
 
 ## Output
 
-![](entity-with-mandatory.svg)
+<note>This is a concept image and not the actual result of the application.</note>
+
+![](entity-with-mandatory.png)
