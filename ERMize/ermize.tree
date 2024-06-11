@@ -9,7 +9,10 @@
 
     <toc-element topic="ERMize.topic">
         <toc-element topic="Getting-Started.md"/>
-        <toc-element topic="Language-Reference.md"/>
+        <toc-element toc-title="Language Reference">
+            <toc-element topic="ERModel.md"/>
+            <toc-element toc-title="ERMScript" />
+        </toc-element>
     </toc-element>
     <toc-element toc-title="Entities">
         <toc-element topic="Creating-an-Entity.md"/>
