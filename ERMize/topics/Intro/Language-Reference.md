@@ -1,3 +1,0 @@
-# Language Reference
-
-Start typing here...
