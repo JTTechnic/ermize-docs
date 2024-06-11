@@ -34,4 +34,4 @@ TaskList -|--o<|{ Task : TaskOfTaskList
 Task }o--o- User : AssignedTo
 Task -|--o<|{ SubTask : SubTaskOfTask
 
-Task <--()-- SubTask : TypeOfTask
+Task <-()- SubTask : TypeOfTask
