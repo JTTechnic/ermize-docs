@@ -40,6 +40,7 @@
         <toc-element toc-title="Keys">
             <toc-element topic="Primary-Keys.md"/>
             <toc-element topic="Foreign-Keys.md"/>
+            <toc-element toc-title="Alternate Keys"/>
             <toc-element toc-title="Naming Keys" hidden="true"/>
         </toc-element>
         <toc-element topic="Domains-and-Data-Types.md"/>
