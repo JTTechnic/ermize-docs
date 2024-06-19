@@ -19,9 +19,9 @@ A user can have zero or one task lists and a task list can have zero or one user
 
 ### Output
 
-<note>This is a concept image and not the actual result of the application.</note>
+<note>The result of this output is still a work in progress and may still change.</note>
 
-![](cardinality-zero-or-one.svg)
+![](cardinality-zero-or-one.png)
 
 ## Exactly One
 
@@ -33,9 +33,9 @@ A user always has one task lists and a task list always has one user.
 
 ### Output {id="output_1"}
 
-<note>This is a concept image and not the actual result of the application.</note>
+<note>The result of this output is still a work in progress and may still change.</note>
 
-![](cardinality-exactly-one.svg)
+![](cardinality-exactly-one.png)
 
 ## Zero or Many
 
@@ -47,9 +47,9 @@ A user can have zero or more task lists and a task list can have zero or more us
 
 ### Output {id="output_2"}
 
-<note>This is a concept image and not the actual result of the application.</note>
+<note>The result of this output is still a work in progress and may still change.</note>
 
-![](cardinality-zero-or-many.svg)
+![](cardinality-zero-or-many.png)
 
 ## One or Many
 
@@ -61,9 +61,9 @@ A user always has one or more task lists and a task list always has one or more 
 
 ### Output {id="output_3"}
 
-<note>This is a concept image and not the actual result of the application.</note>
+<note>The result of this output is still a work in progress and may still change.</note>
 
-![](cardinality-one-or-many.svg)
+![](cardinality-one-or-many.png)
 
 ## Mixing Cardinality Types
 
@@ -86,6 +86,6 @@ The following applies in this diagram:
 
 ### Output {id="output_4"}
 
-<note>This is a concept image and not the actual result of the application.</note>
+<note>The result of this output is still a work in progress and may still change.</note>
 
-![](mixed-cardinality.svg)
+![](mixed-cardinality.png)
