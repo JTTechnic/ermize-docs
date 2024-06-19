@@ -1,28 +1,20 @@
 entity User {
-    username <pi> USRNAME <M>
-    --
-    PI_USER
+    username <M>
 }
 
 entity TaskList {
-    title <pi> TITLE <M>
-    owner <pi,fi> USRNAME <M>
+    title <M>
+    owner <M>
     description DESC
-    --
-    PI_TASKLIST
-    FI_TASKLIST_USER
 }
 
 entity Task {
-    title <pi> TITLE <M>
-    list_title <pi,fi1> TITLE <M>
-    owner <pi,fi2> USRNAME <M>
+    title <M>
+    list_title <M>
+    owner <M>
     description DESC
     start_date SDATE <M>
     end_date EDATE <M>
     start_time STIME
     end_time ETIME
-    --
-    PI_TASK
-    FI_TASK_TASKLIST
 }
