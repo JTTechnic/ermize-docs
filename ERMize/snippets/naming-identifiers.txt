@@ -1,0 +1,28 @@
+entity User {
+    username <pi>
+    --
+    PI_USER
+}
+
+entity TaskList {
+    title <pi>
+    owner <pi,fi>
+    description
+    --
+    PI_TASKLIST
+    FI_TASKLIST_USER
+}
+
+entity Task {
+    title <pi>
+    list_title <pi,fi>
+    owner <pi,fi>
+    description
+    start_date
+    end_date
+    start_time
+    end_time
+    --
+    PI_TASK
+    FI_TASK_TASKLIST
+}

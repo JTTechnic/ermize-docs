@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="635" height="410" xmlns="http://www.w3.org/2000/svg">
+    <rect id="bg" width="100%" height="100%" x="0" y="0" rx="0" ry="0" fill="white" />
+    <g class="entity">
+        <rect width="260" height="50" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="140" y="25" fill="black" dominant-baseline="central" text-anchor="middle">«entity»</text>
+        <text x="140" y="45" fill="black" dominant-baseline="central" text-anchor="middle">User</text>
+        <rect width="260" height="30" x="10" y="60" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="75" fill="black" dominant-baseline="central">username &lt;pi&gt;</text>
+        <rect width="260" height="30" x="10" y="90" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="105" fill="black" dominant-baseline="central">PI_USER</text>
+    </g>
+    <g class="entity" id="TaskList" transform="translate(27.5, 220)">
+        <rect width="180" height="50" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="100" y="25" fill="black" dominant-baseline="central" text-anchor="middle">«entity»</text>
+        <text x="100" y="45" fill="black" dominant-baseline="central" text-anchor="middle">TaskList</text>
+        <rect width="180" height="70" x="10" y="60" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="75" fill="black" dominant-baseline="central">title &lt;pi&gt;</text>
+        <text x="20" y="95" fill="black" dominant-baseline="central">owner &lt;pi,fi&gt;</text>
+        <text x="20" y="115" fill="black" dominant-baseline="central">description</text>
+        <rect width="180" height="50" x="10" y="130" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="145" fill="black" dominant-baseline="central">PI_TASKLIST</text>
+        <text x="20" y="165" fill="black" dominant-baseline="central">FI_TASKLIST_USER</text>
+    </g>
+    <g class="entity" id="Task" transform="translate(440, 120)">
+        <rect width="170" height="50" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="95" y="25" fill="black" dominant-baseline="central" text-anchor="middle">«entity»</text>
+        <text x="95" y="45" fill="black" dominant-baseline="central" text-anchor="middle">Task</text>
+        <rect width="170" height="170" x="10" y="60" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="75" fill="black" dominant-baseline="central">title &lt;pi&gt;</text>
+        <text x="20" y="95" fill="black" dominant-baseline="central">list_title &lt;pi,fi&gt;</text>
+        <text x="20" y="115" fill="black" dominant-baseline="central">owner &lt;pi,fi&gt;</text>
+        <text x="20" y="135" fill="black" dominant-baseline="central">description</text>
+        <text x="20" y="155" fill="black" dominant-baseline="central">start_date</text>
+        <text x="20" y="175" fill="black" dominant-baseline="central">end_date</text>
+        <text x="20" y="195" fill="black" dominant-baseline="central">start_time</text>
+        <text x="20" y="215" fill="black" dominant-baseline="central">end_time</text>
+        <rect width="170" height="50" x="10" y="230" fill="lightgrey" style="stroke-width:1;stroke:black;" />
+        <text x="20" y="245" fill="black" dominant-baseline="central">PI_TASK</text>
+        <text x="20" y="265" fill="black" dominant-baseline="central">FI_TASK_TASKLIST</text>
+    </g>
+</svg>
