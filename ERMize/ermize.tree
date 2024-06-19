@@ -30,7 +30,7 @@
         <toc-element topic="Creating-a-Relationship.md"/>
         <toc-element topic="Naming-a-Relationship.md"/>
         <toc-element topic="Cardinalities.md"/>
-        <toc-element topic="Dependencies.topic"/>
+        <toc-element topic="Dependencies.topic" hidden="true"/>
     </toc-element>
     <toc-element toc-title="Subtypes" hidden="true">
         <toc-element topic="Creating-a-Subtype.topic" hidden="true"/>
