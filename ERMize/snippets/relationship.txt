@@ -1,10 +1,7 @@
 entity User {
-    username <pi> USRNAME <M>
 }
 
 entity TaskList {
-    title <pi> TITLE <M>
-    deschription DESC
 }
 
 User -- TaskList
