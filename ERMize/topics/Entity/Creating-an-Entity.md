@@ -16,6 +16,4 @@ As development progresses, more properties can be added to this entity.
 
 ## Output
 
-<note>This is a concept image and not the actual result of the application.</note>
-
 ![A simple "User" entity](empty-entity.png "A simple \"User\" entity")
