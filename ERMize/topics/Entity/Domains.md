@@ -10,7 +10,7 @@
 
 <note>This is a concept image and not the actual result of the application.</note>
 
-![](entity-with-domain.png)
+![](entity-with-domain.svg)
 
 ## Data Types
 
@@ -22,7 +22,7 @@
 
 <note>This is a concept image and not the actual result of the application.</note>
 
-![](entity-with-data-type.png)
+![](entity-with-data-type.svg)
 
 ## Combining Domains and Data Types
 
@@ -34,4 +34,4 @@
 
 <note>This is a concept image and not the actual result of the application.</note>
 
-![](entity-with-domain-and-data-type.png)
+![](entity-with-domain-and-data-type.svg)

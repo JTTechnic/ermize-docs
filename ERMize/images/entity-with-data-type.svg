@@ -5,23 +5,23 @@
         <rect width="260" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
         <text x="140" y="30" fill="black" dominant-baseline="central" text-anchor="middle">User</text>
         <rect width="260" height="30" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
-        <text x="20" y="65" fill="black" dominant-baseline="central">username &lt;pi&gt; varchar(30)</text>
+        <text x="20" y="65" fill="black" dominant-baseline="central">username varchar(30)</text>
     </g>
     <g class="entity" id="TaskList" transform="translate(30, 230)">
         <rect width="185" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
         <text x="100" y="30" fill="black" dominant-baseline="central" text-anchor="middle">TaskList</text>
         <rect width="185" height="70" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
-        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;pi&gt; varchar(100)</text>
-        <text x="20" y="85" fill="black" dominant-baseline="central">owner &lt;pi,fi&gt; varchar(30)</text>
+        <text x="20" y="65" fill="black" dominant-baseline="central">title varchar(100)</text>
+        <text x="20" y="85" fill="black" dominant-baseline="central">owner varchar(30)</text>
         <text x="20" y="105" fill="black" dominant-baseline="central">description varchar(1000)</text>
     </g>
     <g class="entity" id="Task" transform="translate(405, 180)">
         <rect width="210" height="40" x="10" y="10" fill="lightgrey" style="stroke-width:1;stroke:black;" />
         <text x="110" y="30" fill="black" dominant-baseline="central" text-anchor="middle">Task</text>
         <rect width="210" height="170" x="10" y="50" fill="lightgrey" style="stroke-width:1;stroke:black;" />
-        <text x="20" y="65" fill="black" dominant-baseline="central">title &lt;pi&gt; varchar(100)</text>
-        <text x="20" y="85" fill="black" dominant-baseline="central">list_title &lt;pi,fi1&gt; varchar(100)</text>
-        <text x="20" y="105" fill="black" dominant-baseline="central">owner &lt;pi,fi2&gt; varchar(30)</text>
+        <text x="20" y="65" fill="black" dominant-baseline="central">title varchar(100)</text>
+        <text x="20" y="85" fill="black" dominant-baseline="central">list_title varchar(100)</text>
+        <text x="20" y="105" fill="black" dominant-baseline="central">owner varchar(30)</text>
         <text x="20" y="125" fill="black" dominant-baseline="central">description varchar(1000)</text>
         <text x="20" y="145" fill="black" dominant-baseline="central">start_date date</text>
         <text x="20" y="165" fill="black" dominant-baseline="central">end_date date</text>
