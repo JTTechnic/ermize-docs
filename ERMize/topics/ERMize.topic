@@ -13,7 +13,7 @@
 
         <spotlight>
             <a href="Getting-Started.md" type="start" summary="Install and create models with ERMize." />
-            <a href="Language-Reference.md" type="development" summary="Find available features quickly." />
+            <a href="ERModel.md" type="development" summary="Find available features quickly." />
         </spotlight>
 
         <primary>
