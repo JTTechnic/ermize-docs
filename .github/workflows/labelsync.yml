@@ -1,9 +1,15 @@
 name: Automatic Label Sync
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - "main"
+    paths:
+      - ".github/labels.yml"
+  pull_request:
+    paths:
+      - ".github/labels.yml"
 
 jobs:
   label_sync:
@@ -12,10 +18,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3
-        with:
-          repository: "JTTechnic/.github"
       - name: Run Label Sync
         uses: crazy-max/ghaction-github-labeler@3de87da19416edc45c90cd89e7a4ea922a3aae5a # v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          yaml-file: .github/labels-docs.yml
+          yaml-file: .github/labels.yml
+          dry-run: ${{ github.event_name == 'pull_request' }}
