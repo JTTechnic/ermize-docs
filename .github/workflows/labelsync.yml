@@ -18,4 +18,4 @@ jobs:
         uses: crazy-max/ghaction-github-labeler@3de87da19416edc45c90cd89e7a4ea922a3aae5a # v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          yaml-file: .github/labels.yml
+          yaml-file: .github/labels-docs.yml
