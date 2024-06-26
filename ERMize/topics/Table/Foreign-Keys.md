@@ -8,9 +8,7 @@
 
 ### Output
 
-<note>This is a concept image and not the actual result of the application.</note>
-
-![Table With Foreign Key](table-with-fk.svg)
+![Table With Foreign Key](table-with-fk.png)
 
 ## Multiple Foreign Keys
 
@@ -20,6 +18,4 @@
 
 ### Output {id="output_1"}
 
-<note>This is a concept image and not the actual result of the application.</note>
-
-![Table With Multiple Foreign Keys](table-with-multiple-fk.svg)
+![Table With Multiple Foreign Keys](table-with-multiple-fk.png)
