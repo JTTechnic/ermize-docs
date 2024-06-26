@@ -1,27 +1,13 @@
 entity User {
-    username <pi> USRNAME <M>
 }
 
 entity UserEmail {
-    email <pi> EMAIL <M>
-    username <pi,fi> USRNAME <M>
 }
 
 entity TaskList {
-    title <pi> TITLE <M>
-    owner <pi,fi> USRNAME <M>
-    description DESC
 }
 
 entity Task {
-    title <pi> TITLE <M>
-    list_title <pi,fi1> TITLE <M>
-    owner <pi,fi2> USRNAME <M>
-    description DESC
-    start_date SDATE <M>
-    end_date EDATE <M>
-    start_time STIME
-    end_time ETIME
 }
 
 User -|--|<|{ UserEmail : EmailOfUser

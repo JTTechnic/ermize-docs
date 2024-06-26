@@ -1,10 +1,4 @@
-table User {
-    username varchar(30) <pk> not null
-}
+table User {}
+table TaskList {}
 
-table TaskList {
-    title varchar(100) <pk> not null
-    description varchar(1000) null
-}
-
-User <-- "1..1" TaskList : FK_TASKLIST_USER
+User <-- "1..1" TaskList

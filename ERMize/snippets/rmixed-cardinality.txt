@@ -1,31 +1,12 @@
-table User {
-    username varchar(30) <pk> not null
-}
+table User {}
+table UserEmail {}
+table TaskList {}
+table Task {}
+table SharedTaskList {}
 
-table UserEmail {
-    email varchar(100) <pk> not null
-}
-
-table TaskList {
-    title varchar(100) <pk> not null
-    description varchar(1000) null
-}
-
-table Task {
-    title varchar(100) <pk> not null
-    description varchar(1000) null
-    start_date date not null
-    end_date date not null
-    start_time time null
-    end_time time null
-}
-
-table SharedTaskList {
-}
-
-User <-- "1..*" UserEmail : FK_USEREMAIL_USER
-User <-- "0..*" TaskList : FK_TASKLIST_USER
-User <-- "0..*" SharedTaskList : FK_SHAREDTASKLIST_USER
-TaskList <-- "0..*" SharedTaskList : FK_SHAREDTASKLIST_TASKLIST
-TaskList <-- "0..*" Task : FK_TASK_TASKLIST
-Task "0..*" --> User : FK_TASK_USER
+User <-- "1..*" UserEmail
+User <-- "0..*" TaskList
+User <-- "0..*" SharedTaskList
+TaskList <-- "0..*" SharedTaskList
+TaskList <-- "0..*" Task
+Task "0..*" --> User

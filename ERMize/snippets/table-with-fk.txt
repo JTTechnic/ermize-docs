@@ -1,9 +1,9 @@
 table User {
-    username <pk>
+    username
 }
 
 table TaskList {
-    title <pk>
-    owner <pk,fk>
+    title
+    owner <fk>
     description
 }

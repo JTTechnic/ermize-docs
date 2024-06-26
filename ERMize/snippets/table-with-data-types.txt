@@ -1,17 +1,17 @@
 table User {
-    username varchar(30) <pk>
+    username varchar(30)
 }
 
 table TaskList {
-    title varchar(100) <pk>
-    owner varchar(30) <pk,fk>
+    title varchar(100)
+    owner varchar(30)
     description varchar(1000)
 }
 
 table Task {
-    title varchar(100) <pk>
-    list_title varchar(100) <pk,fk1>
-    owner varchar(30) <pk,fk2>
+    title varchar(100)
+    list_title varchar(100)
+    owner varchar(30)
     description varchar(1000)
     start_date date
     end_date date

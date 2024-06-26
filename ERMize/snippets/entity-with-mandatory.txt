@@ -5,16 +5,16 @@ entity User {
 entity TaskList {
     title <M>
     owner <M>
-    description DESC
+    description
 }
 
 entity Task {
     title <M>
     list_title <M>
     owner <M>
-    description DESC
-    start_date SDATE <M>
-    end_date EDATE <M>
-    start_time STIME
-    end_time ETIME
+    description
+    start_date <M>
+    end_date <M>
+    start_time
+    end_time
 }

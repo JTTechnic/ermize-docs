@@ -1,17 +1,17 @@
 table User {
-    username <pk>
+    username
 }
 
 table TaskList {
-    title <pk>
-    owner <pk,fk>
+    title
+    owner <fk>
     description
 }
 
 table Task {
-    title <pk>
-    list_title <pk,fk1>
-    owner <pk,fk2>
+    title
+    list_title <fk>
+    owner <fk>
     description
     start_date
     end_date
