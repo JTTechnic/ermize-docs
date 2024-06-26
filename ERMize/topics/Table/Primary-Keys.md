@@ -6,6 +6,4 @@
 
 ## Output
 
-<note>This is a concept image and not the actual result of the application.</note>
-
-![](table-with-pk.svg)
+![](table-with-pk.png)
