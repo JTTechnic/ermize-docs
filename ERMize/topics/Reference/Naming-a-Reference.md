@@ -6,6 +6,6 @@
 
 ## Output
 
-<note>This is a concept image and not the actual result of the application.</note>
+<note>The result of this output is still a work in progress and may still change.</note>
 
-![](reference-with-name.svg)
+![](reference-with-name.png)
