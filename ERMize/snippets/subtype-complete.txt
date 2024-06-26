@@ -1,39 +1,4 @@
-entity User {
-    username <pi> USRNAME <M>
-}
-
-entity UserEmail {
-    email <pi> EMAIL <M>
-}
-
-entity TaskList {
-    title <pi> TITLE <M>
-    description DESC
-}
-
-entity Task {
-    title <pi> TITLE <M>
-    task_type TTYPE <M>
-    description DESC
-    start_date SDATE <M>
-    end_date EDATE <M>
-    start_time STIME
-    end_time ETIME
-}
-
-entity UserStory {
-    role <pi> ROLE <M>
-    action <pi> ACTN <M>
-    goal <pi> GOAL <M>
-}
-
+entity Task {}
 entity SubTask {}
 
-User -|--|<|{ UserEmail : EmailOfUser
-User -|--o<|{ TaskList : TaskListOfUser
-TaskList }o--o{ User : SharedTaskList
-TaskList -|--o<|{ Task : TaskOfTaskList
-Task }o--o- User : AssignedTo
-Task -|--o<|{ SubTask : SubTaskOfTask
-
-Task <-(__)- UserStory, SubTask : TypeOfTask
+Task <-(__)- SubTask : TypeOfTask
