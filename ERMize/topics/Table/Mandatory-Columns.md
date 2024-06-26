@@ -6,6 +6,4 @@
 
 ## Output
 
-<note>This is a concept image and not the actual result of the application.</note>
-
-![](table-with-mandatory.svg)
+![](table-with-mandatory.png)
