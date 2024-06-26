@@ -10,8 +10,8 @@ entity TaskList {
 entity Task {
 }
 
-User -|--|{ UserEmail : EmailOfUser
-User -|--o{ TaskList : TaskListOfUser
-TaskList }o--o{ User : SharedTaskList
-TaskList -|--o{ Task : TaskOfTaskList
-Task }o--o- User : AssignedTo
+User -|--|{ UserEmail
+User -|--o{ TaskList
+TaskList }o--o{ User
+TaskList -|--o{ Task
+Task }o--o- User

@@ -4,4 +4,4 @@ entity User {
 entity TaskList {
 }
 
-User }o--o{ TaskList : TaskListOfUser
+User }o--o{ TaskList

@@ -19,8 +19,6 @@ A user can have zero or one task lists and a task list can have zero or one user
 
 ### Output
 
-<note>The result of this output is still a work in progress and may still change.</note>
-
 ![](cardinality-zero-or-one.png)
 
 ## Exactly One
@@ -32,8 +30,6 @@ A user always has one task lists and a task list always has one user.
 <code-block src="cardinality-exactly-one.txt"/>
 
 ### Output {id="output_1"}
-
-<note>The result of this output is still a work in progress and may still change.</note>
 
 ![](cardinality-exactly-one.png)
 
@@ -47,8 +43,6 @@ A user can have zero or more task lists and a task list can have zero or more us
 
 ### Output {id="output_2"}
 
-<note>The result of this output is still a work in progress and may still change.</note>
-
 ![](cardinality-zero-or-many.png)
 
 ## One or Many
@@ -60,8 +54,6 @@ A user always has one or more task lists and a task list always has one or more 
 <code-block src="cardinality-one-or-many.txt"/>
 
 ### Output {id="output_3"}
-
-<note>The result of this output is still a work in progress and may still change.</note>
 
 ![](cardinality-one-or-many.png)
 
