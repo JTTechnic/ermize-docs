@@ -14,17 +14,19 @@
             We have added the functionality to add identifiers to entities.
             See the code snippet below how this is done in code.
         </p>
-        <note>The user has the ability to add identifiers when no attributes exist in the entity.</note>
+        <note>
+            <p>The user has the ability to add identifiers when no attributes exist in the entity.
+            See code snippet below for an example how this is done.
+            </p>
+            <code-block src="naming-identifiers-without-attributes.txt" />
+        </note>
         <code-block src="naming-identifiers.txt" />
 
     </chapter>
 
     <chapter title="Output" id="output">
         <p>This is the following ERMize output.</p>
-        <note>
-            <p>This is a concept image and not the actual result of the application.</p>
-            <code-block src="naming-identifiers-without-attributes.txt" />
-        </note>
+        <note>This is a concept image and not the actual result of the application.</note>
         <img src="naming-identifiers.svg" alt="Entity with a named identifier" />
     </chapter>
 </topic>
