@@ -6,7 +6,7 @@
        title="Naming Identifiers" id="Naming-Identifiers">
 
     <available-only-for>Standard</available-only-for>
-    <p>Identifiers are commonly used in conceptual data models as they provide more clarity, helping stakeholders to understand what each attribute or entity represents.
+    <p>Identifiers are commonly used in conceptual and logical data models as they provide more clarity, helping stakeholders to understand what each attribute or entity represents.
         By using identifiers, the user can enhance the documentation of the data model.
     </p>
     <chapter title="Code" id="code">
