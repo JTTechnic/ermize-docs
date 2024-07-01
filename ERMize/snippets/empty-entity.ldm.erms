@@ -1,0 +1,6 @@
+@startldm
+
+entity User {
+}
+
+@endldm
