@@ -21,7 +21,10 @@
 
     <chapter title="Output" id="output">
         <p>This is the following ERMize output.</p>
-        <note>This is a concept image and not the actual result of the application.</note>
+        <note>
+            <p>This is a concept image and not the actual result of the application.</p>
+            <code-block src="naming-identifiers-without-attributes.txt" />
+        </note>
         <img src="naming-identifiers.svg" alt="Entity with a named identifier" />
     </chapter>
 </topic>
