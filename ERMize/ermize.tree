@@ -20,7 +20,7 @@
         <toc-element toc-title="Identifiers">
             <toc-element topic="Primary-Identifiers.md"/>
             <toc-element topic="Foreign-Identifiers.topic"/>
-            <toc-element toc-title="Naming Identifiers" hidden="true"/>
+            <toc-element topic="Naming-Identifiers.topic"/>
         </toc-element>
         <toc-element topic="Domains.md"/>
         <toc-element topic="Mandatory-Attributes.md"/>
