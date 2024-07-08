@@ -1,0 +1,12 @@
+@startcdm
+
+entity User {
+    username
+}
+
+entity TaskList {
+    title
+    description
+}
+
+@endcdm

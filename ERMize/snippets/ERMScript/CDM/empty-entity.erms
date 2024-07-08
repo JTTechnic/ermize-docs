@@ -1,0 +1,6 @@
+@startcdm
+
+entity User {
+}
+
+@endcdm

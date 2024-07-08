@@ -1,0 +1,12 @@
+@startldm
+
+entity User {
+    username
+}
+
+entity TaskList {
+    title
+    description
+}
+
+@endldm

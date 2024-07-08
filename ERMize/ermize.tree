@@ -14,60 +14,121 @@
             <toc-element toc-title="ERMScript" />
         </toc-element>
     </toc-element>
-    <toc-element toc-title="Entities">
-        <toc-element topic="Creating-an-Entity.md"/>
-        <toc-element topic="Adding-Attributes.md"/>
-        <toc-element toc-title="Identifiers">
-            <toc-element topic="Primary-Identifiers.md"/>
-            <toc-element topic="Foreign-Identifiers.topic"/>
-            <toc-element toc-title="Naming Identifiers" hidden="true"/>
+    <toc-element toc-title="ERModel">
+        <toc-element toc-title="Entities">
+            <toc-element topic="Creating-an-Entity.md"/>
+            <toc-element topic="Adding-Attributes.md"/>
+            <toc-element toc-title="Identifiers">
+                <toc-element topic="Primary-Identifiers.md"/>
+                <toc-element topic="Foreign-Identifiers.topic"/>
+                <toc-element hidden="true" toc-title="Naming Identifiers"/>
+            </toc-element>
+            <toc-element topic="Domains.md"/>
+            <toc-element topic="Mandatory-Attributes.md"/>
+            <toc-element hidden="true" toc-title="Stereotypes"/>
         </toc-element>
-        <toc-element topic="Domains.md"/>
-        <toc-element topic="Mandatory-Attributes.md"/>
-        <toc-element toc-title="Stereotypes" hidden="true"/>
-    </toc-element>
-    <toc-element toc-title="Relationships">
-        <toc-element topic="Creating-a-Relationship.md"/>
-        <toc-element topic="Naming-a-Relationship.md"/>
-        <toc-element topic="Cardinalities.md"/>
-        <toc-element toc-title="Dependencies" hidden="true"/>
-    </toc-element>
-    <toc-element toc-title="Subtypes" hidden="true">
-        <toc-element toc-title="Creating-a-Subtype" hidden="true"/>
-        <toc-element toc-title="Subtype-Options" hidden="true"/>
-    </toc-element>
-    <toc-element toc-title="Associations" hidden="true"/>
-    <toc-element toc-title="Tables">
-        <toc-element topic="Creating-a-Table.md"/>
-        <toc-element topic="Adding-Columns.md"/>
-        <toc-element toc-title="Keys">
-            <toc-element topic="Primary-Keys.md"/>
-            <toc-element topic="Foreign-Keys.md"/>
-            <toc-element toc-title="Alternate Keys"/>
-            <toc-element toc-title="Naming Keys" hidden="true"/>
+        <toc-element toc-title="Relationships">
+            <toc-element topic="Creating-a-Relationship.md"/>
+            <toc-element topic="Naming-a-Relationship.md"/>
+            <toc-element topic="Cardinalities.md"/>
+            <toc-element hidden="true" toc-title="Dependencies"/>
         </toc-element>
-        <toc-element topic="Domains-and-Data-Types.md"/>
-        <toc-element topic="Mandatory-Columns.md"/>
-        <toc-element toc-title="Indexes" hidden="true"/>
-        <toc-element toc-title="Triggers" hidden="true"/>
-        <toc-element toc-title="Stereotypes" hidden="true"/>
+        <toc-element hidden="true" toc-title="Subtypes">
+            <toc-element hidden="true" toc-title="Creating-a-Subtype"/>
+            <toc-element hidden="true" toc-title="Subtype-Options"/>
+        </toc-element>
+        <toc-element hidden="true" toc-title="Associations"/>
+        <toc-element toc-title="Tables">
+            <toc-element topic="Creating-a-Table.md"/>
+            <toc-element topic="Adding-Columns.md"/>
+            <toc-element toc-title="Keys">
+                <toc-element topic="Primary-Keys.md"/>
+                <toc-element topic="Foreign-Keys.md"/>
+                <toc-element toc-title="Alternate Keys"/>
+                <toc-element hidden="true" toc-title="Naming Keys"/>
+            </toc-element>
+            <toc-element topic="Domains-and-Data-Types.md"/>
+            <toc-element topic="Mandatory-Columns.md"/>
+            <toc-element hidden="true" toc-title="Indexes"/>
+            <toc-element hidden="true" toc-title="Triggers"/>
+            <toc-element hidden="true" toc-title="Stereotypes"/>
+        </toc-element>
+        <toc-element toc-title="References">
+            <toc-element topic="Creating-a-Reference.md"/>
+            <toc-element topic="Naming-a-Reference.md"/>
+            <toc-element topic="RCardinalities.md"/>
+            <toc-element hidden="true" toc-title="Update and Delete Constraints"/>
+        </toc-element>
+        <toc-element hidden="true" toc-title="Views"/>
+        <toc-element hidden="true" toc-title="Procedures"/>
+        <toc-element hidden="true" toc-title="Styling">
+            <toc-element hidden="true" toc-title="Positioning"/>
+            <toc-element hidden="true" toc-title="Colors"/>
+            <toc-element hidden="true" toc-title="Themes"/>
+        </toc-element>
+        <toc-element hidden="true" toc-title="Miscellaneous">
+            <toc-element hidden="true" toc-title="Notes"/>
+            <toc-element hidden="true" toc-title="Files"/>
+            <toc-element hidden="true" toc-title="Packages"/>
+        </toc-element>
     </toc-element>
-    <toc-element toc-title="References">
-        <toc-element topic="Creating-a-Reference.md"/>
-        <toc-element topic="Naming-a-Reference.md"/>
-        <toc-element topic="RCardinalities.md"/>
-        <toc-element toc-title="Update and Delete Constraints" hidden="true"/>
-    </toc-element>
-    <toc-element toc-title="Views" hidden="true"/>
-    <toc-element toc-title="Procedures" hidden="true"/>
-    <toc-element toc-title="Styling" hidden="true">
-        <toc-element toc-title="Positioning" hidden="true"/>
-        <toc-element toc-title="Colors" hidden="true"/>
-        <toc-element toc-title="Themes" hidden="true"/>
-    </toc-element>
-    <toc-element toc-title="Miscellaneous" hidden="true">
-        <toc-element toc-title="Notes" hidden="true"/>
-        <toc-element toc-title="Files" hidden="true"/>
-        <toc-element toc-title="Packages" hidden="true"/>
+    <toc-element toc-title="ERMScript">
+        <toc-element toc-title="Conceptual Data Model">
+            <toc-element toc-title="Entities">
+                <toc-element topic="SC_Creating-an-Entity.md" />
+                <toc-element topic="SC_Adding-Attributes.md"/>
+                <toc-element toc-title="Identifiers">
+                    <toc-element topic="SC_Primary-Identifiers.md"/>
+                    <toc-element toc-title="Naming Identifiers" hidden="true"/>
+                </toc-element>
+                <toc-element toc-title="Domains and Data Types"/>
+                <toc-element topic="SC_Mandatory-Attributes.md"/>
+            </toc-element>
+            <toc-element toc-title="Relationships">
+                <toc-element toc-title="Creating a Relationship"/>
+                <toc-element toc-title="Naming a Relationship"/>
+                <toc-element toc-title="Cardinalities"/>
+                <toc-element toc-title="Dependencies" hidden="true"/>
+            </toc-element>
+        </toc-element>
+        <toc-element toc-title="Logical Data Model">
+            <toc-element toc-title="Entities">
+                <toc-element topic="SL_Creating-an-Entity.md"/>
+                <toc-element topic="SL_Adding-Attributes.md"/>
+                <toc-element toc-title="Identifiers">
+                    <toc-element topic="SL_Primary-Identifiers.md"/>
+                    <toc-element toc-title="Foreign Identifiers"/>
+                    <toc-element toc-title="Naming Identifiers" hidden="true"/>
+                </toc-element>
+                <toc-element toc-title="Domains and Data Types"/>
+                <toc-element topic="SL_Mandatory-Attributes.md"/>
+            </toc-element>
+            <toc-element toc-title="Relationships">
+                <toc-element toc-title="Creating a Relationship"/>
+                <toc-element toc-title="Naming a Relationship"/>
+                <toc-element toc-title="Cardinalities"/>
+                <toc-element toc-title="Dependencies" hidden="true"/>
+            </toc-element>
+        </toc-element>
+        <toc-element toc-title="Physical Data Model">
+            <toc-element toc-title="Tables">
+                <toc-element toc-title="Creating a Table"/>
+                <toc-element toc-title="Adding Columns"/>
+                <toc-element toc-title="Keys">
+                    <toc-element toc-title="Primary Keys"/>
+                    <toc-element toc-title="Foreign Keys"/>
+                    <toc-element toc-title="Alternate Keys" hidden="true"/>
+                    <toc-element toc-title="Naming Keys" hidden="true"/>
+                </toc-element>
+                <toc-element toc-title="Domains and Data Types"/>
+                <toc-element toc-title="Mandatory Columns"/>
+            </toc-element>
+            <toc-element toc-title="References">
+                <toc-element toc-title="Creating a Reference"/>
+                <toc-element toc-title="Naming a Reference"/>
+                <toc-element toc-title="Cardinalities"/>
+                <toc-element toc-title="Update and Delete Constraints" hidden="true"/>
+            </toc-element>
+        </toc-element>
     </toc-element>
 </instance-profile>
