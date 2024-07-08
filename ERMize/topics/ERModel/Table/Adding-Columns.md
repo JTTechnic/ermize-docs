@@ -2,7 +2,7 @@
 
 ## Code
 
-<code-block src="table-with-columns.txt"/>
+<code-block src="ERModel/table-with-columns.ermd"/>
 
 ## Output
 

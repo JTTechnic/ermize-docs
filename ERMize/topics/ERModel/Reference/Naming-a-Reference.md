@@ -1,11 +1,11 @@
-# Naming a Relationship
+# Naming a Reference
 
 ## Code
 
-<code-block src="relationship-with-name.txt"/>
+<code-block src="ERModel/reference-with-name.ermd"/>
 
 ## Output
 
 <note>The result of this output is still a work in progress and may still change.</note>
 
-![](relationship-with-name.png)
+![](reference-with-name.png)

@@ -2,7 +2,7 @@
 
 ## Code
 
-<code-block src="empty-table.txt"/>
+<code-block src="ERModel/empty-table.ermd"/>
 
 ## Output
 

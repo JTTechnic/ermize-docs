@@ -2,7 +2,7 @@
 
 ## Code
 
-<code-block src="reference.txt"/>
+<code-block src="ERModel/reference.ermd"/>
 
 ## Output
 

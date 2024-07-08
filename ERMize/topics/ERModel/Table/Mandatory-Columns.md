@@ -2,7 +2,7 @@
 
 ## Code
 
-<code-block src="table-with-mandatory.txt"/>
+<code-block src="ERModel/table-with-mandatory.ermd"/>
 
 ## Output
 

@@ -3,40 +3,29 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/html-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Subtype Options" id="Subtype-Options">
+       title="Creating a Subtype" id="Creating-a-Subtype">
 
     <available-only-for instance="ermize">Standard</available-only-for>
 
-    <chapter title="Exclusive" id="exclusive">
+    <chapter title="Single Subtype" id="single_subtype">
         <chapter title="Code" id="code">
-            <code-block src="subtype-exclusive.txt"/>
+            <code-block src="ERModel/subtype.ermd"/>
         </chapter>
 
         <chapter title="Output" id="output">
             <note>This is a concept image and not the actual result of the application.</note>
-            <img src="subtypes-exclusive.svg" alt="Exclusive Subtype"/>
+            <img src="subtypes.svg" alt="Single Subtype"/>
         </chapter>
     </chapter>
 
-    <chapter title="Complete" id="complete">
+    <chapter title="Multiple Subtypes" id="multiple_subtypes">
         <chapter title="Code" id="code_1">
-            <code-block src="subtype-complete.txt"/>
+            <code-block src="ERModel/subtype-multiple.ermd"/>
         </chapter>
 
         <chapter title="Output" id="output_1">
             <note>This is a concept image and not the actual result of the application.</note>
-            <img src="subtypes-complete.svg" alt="Complete Subtype"/>
-        </chapter>
-    </chapter>
-
-    <chapter title="Combining Options" id="combining_options">
-        <chapter title="Code" id="code_2">
-            <code-block src="subtype-excl-and-comp.txt"/>
-        </chapter>
-
-        <chapter title="Output" id="output_2">
-            <note>This is a concept image and not the actual result of the application.</note>
-            <img src="subtypes-excl-and-comp.svg" alt="Exclusive and Complete Subtype"/>
+            <img src="subtypes-multiple.svg" alt="Multiple Subtypes"/>
         </chapter>
     </chapter>
 

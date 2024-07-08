@@ -15,7 +15,7 @@ A user can have zero or one task lists and a task list can have zero or one user
 
 ### Code
 
-<code-block src="cardinality-zero-or-one.txt"/>
+<code-block src="ERModel/cardinality-zero-or-one.ermd"/>
 
 ### Output
 
@@ -27,7 +27,7 @@ A user always has one task lists and a task list always has one user.
 
 ### Code {id="code_1"}
 
-<code-block src="cardinality-exactly-one.txt"/>
+<code-block src="ERModel/cardinality-exactly-one.ermd"/>
 
 ### Output {id="output_1"}
 
@@ -39,7 +39,7 @@ A user can have zero or more task lists and a task list can have zero or more us
 
 ### Code {id="code_2"}
 
-<code-block src="cardinality-zero-or-many.txt"/>
+<code-block src="ERModel/cardinality-zero-or-many.ermd"/>
 
 ### Output {id="output_2"}
 
@@ -51,7 +51,7 @@ A user always has one or more task lists and a task list always has one or more 
 
 ### Code {id="code_3"}
 
-<code-block src="cardinality-one-or-many.txt"/>
+<code-block src="ERModel/cardinality-one-or-many.ermd"/>
 
 ### Output {id="output_3"}
 
@@ -74,7 +74,7 @@ The following applies in this diagram:
 
 ### Code {id="code_4"}
 
-<code-block src="mixed-cardinality.txt"/>
+<code-block src="ERModel/mixed-cardinality.ermd"/>
 
 ### Output {id="output_4"}
 

@@ -4,7 +4,7 @@
 
 ### Code
 
-<code-block src="entity-with-domain.txt"/>
+<code-block src="ERModel/entity-with-domain.ermd"/>
 
 ### Output
 
@@ -14,7 +14,7 @@
 
 ### Code {id="code_1"}
 
-<code-block src="entity-with-data-type.txt"/>
+<code-block src="ERModel/entity-with-data-type.ermd"/>
 
 ### Output {id="output_1"}
 
@@ -24,7 +24,7 @@
 
 ### Code {id="code_2"}
 
-<code-block src="entity-with-domain-and-data-type.txt"/>
+<code-block src="ERModel/entity-with-domain-and-data-type.ermd"/>
 
 ### Output {id="output_2"}
 

@@ -2,7 +2,7 @@
 
 ## Code
 
-<code-block src="table-with-pk.txt"/>
+<code-block src="ERModel/table-with-pk.ermd"/>
 
 ## Output
 

@@ -4,7 +4,7 @@
 
 ### Code
 
-<code-block src="table-with-fk.txt"/>
+<code-block src="ERModel/table-with-fk.ermd"/>
 
 ### Output
 
@@ -14,7 +14,7 @@
 
 ### Code {id="code_1"}
 
-<code-block src="table-with-multiple-fk.txt"/>
+<code-block src="ERModel/table-with-multiple-fk.ermd"/>
 
 ### Output {id="output_1"}
 

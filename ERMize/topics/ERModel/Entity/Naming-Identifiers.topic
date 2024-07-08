@@ -8,7 +8,7 @@
     <available-only-for instance="ermize">Standard</available-only-for>
 
     <chapter title="Code" id="code">
-        <code-block src="naming-identifiers.txt" />
+        <code-block src="naming-identifiers.ermd" />
     </chapter>
 
     <chapter title="Output" id="output">

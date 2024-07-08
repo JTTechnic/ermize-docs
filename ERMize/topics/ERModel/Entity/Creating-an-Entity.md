@@ -9,18 +9,7 @@ In the example below, a simple "User" entity is created without additional prope
 
 ## Code
 
-<tabs>
-<tab title="ERModel">
-    <code-block src="empty-entity.ermd"/>
-</tab>
-<tab title="ERMScript (CDM)">
-    <code-block src="empty-entity.cdm.erms"/>
-</tab>
-<tab title="ERMScript (LDM)">
-    <code-block src="empty-entity.ldm.erms"/>
-</tab>
-</tabs>
-
+<code-block src="ERModel/empty-entity.ermd"/>
 
 This code snippet shows the basic definition of a "User" entity.
 As development progresses, more properties can be added to this entity.

@@ -4,7 +4,7 @@ Put some text here to explain the feature...
 
 ## Code
 
-<code-block src="relationship.txt"/>
+<code-block src="ERModel/relationship.ermd"/>
 
 ## Output
 

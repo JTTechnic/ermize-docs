@@ -8,7 +8,7 @@
     <available-only-for instance="ermize">Standard</available-only-for>
 
     <chapter title="Code" id="code">
-        <code-block src="dependencies.txt"/>
+        <code-block src="dependencies.ermd"/>
     </chapter>
 
     <chapter title="Output" id="output">
