@@ -100,7 +100,7 @@
                     <toc-element toc-title="Foreign Identifiers"/>
                     <toc-element toc-title="Naming Identifiers" hidden="true"/>
                 </toc-element>
-                <toc-element toc-title="Domains and Data Types"/>
+                <toc-element topic="SL-Domains-and-Data-Types.md"/>
                 <toc-element topic="SL_Mandatory-Attributes.md"/>
             </toc-element>
             <toc-element toc-title="Relationships">
