@@ -85,8 +85,8 @@
                 <toc-element topic="SC_Mandatory-Attributes.md"/>
             </toc-element>
             <toc-element toc-title="Relationships">
-                <toc-element toc-title="Creating a Relationship"/>
-                <toc-element toc-title="Naming a Relationship"/>
+                <toc-element topic="SC_Creating-a-Relationship.md"/>
+                <toc-element topic="SC_Naming-a-Relationship.md"/>
                 <toc-element toc-title="Cardinalities"/>
                 <toc-element toc-title="Dependencies" hidden="true"/>
             </toc-element>
@@ -104,8 +104,8 @@
                 <toc-element topic="SL_Mandatory-Attributes.md"/>
             </toc-element>
             <toc-element toc-title="Relationships">
-                <toc-element toc-title="Creating a Relationship"/>
-                <toc-element toc-title="Naming a Relationship"/>
+                <toc-element topic="SL_Creating-a-Relationship.md"/>
+                <toc-element topic="SL_Naming-a-Relationship.md"/>
                 <toc-element toc-title="Cardinalities"/>
                 <toc-element toc-title="Dependencies" hidden="true"/>
             </toc-element>
