@@ -1,0 +1,24 @@
+@startldm
+
+entity User {
+    username varchar(30)
+}
+
+entity TaskList {
+    title varchar(100)
+    owner varchar(30)
+    description varchar(1000)
+}
+
+entity Task {
+    title varchar(100)
+    list_title varchar(100)
+    owner varchar(30)
+    description varchar(1000)
+    start_date date
+    end_date date
+    start_time time
+    end_time time
+}
+
+@endldm

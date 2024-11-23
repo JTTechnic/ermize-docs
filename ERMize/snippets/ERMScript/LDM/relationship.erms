@@ -1,0 +1,11 @@
+@startldm
+
+entity User {
+}
+
+entity TaskList {
+}
+
+relation from User to TaskList
+
+@endldm

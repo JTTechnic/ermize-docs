@@ -1,0 +1,32 @@
+@startcdm
+
+domain USRNAME varchar(30)
+domain TITLE varchar(100)
+domain DESC varchar(1000)
+domain SDATE date
+domain EDATE date
+domain STIME time
+domain ETIME time
+
+entity User {
+    username USRNAME
+}
+
+entity TaskList {
+    title TITLE
+    owner USRNAME
+    description DESC
+}
+
+entity Task {
+    title TITLE
+    list_title TITLE
+    owner USRNAME
+    description DESC
+    start_date SDATE
+    end_date EDATE
+    start_time STIME
+    end_time ETIME
+}
+
+@endcdm

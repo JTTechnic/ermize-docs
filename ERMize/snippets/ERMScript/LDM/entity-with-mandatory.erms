@@ -1,0 +1,24 @@
+@startldm
+
+entity User {
+    username mandatory
+}
+
+entity TaskList {
+    title mandatory
+    owner mandatory
+    description
+}
+
+entity Task {
+    title mandatory
+    list_title mandatory
+    owner mandatory
+    description
+    start_date mandatory
+    end_date mandatory
+    start_time
+    end_time
+}
+
+@endldm
